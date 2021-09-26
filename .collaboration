@@ -167,5 +167,15 @@
     },
     "LockDateTime": "2021-09-26T09:36:42.8003754+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Tables/Cindy",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-09-26T09:37:37.0964584+08:00",
+    "ModuleType": 22
   }
 ]
