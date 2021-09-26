@@ -1,0 +1,180 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
+          {
+            "Text": "菜单1",
+            "IconPath": "Application/020_edit_1.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单1_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单1_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "菜单2",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单2_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单2_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "菜单3",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单3_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单3_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 17.33,
+            "Bold": true,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 16.0,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "3,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Navigation/259_share_5.svg",
+          "BuiltIn": true,
+          "Color": "Accent 2 60",
+          "UseCellTypeForeColor": true
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "Foreground": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#36692DD2",
+        "#FFC3FBC3",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,19": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "1,1,25,15",
+    "3,19,8,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//KVpaV0mEShK6X82rqqFqrm3pqGp79B4GWtmWXXAJ70hGnBoZe+LvloeVzcmrUqN+A6sHh15T88J/GJS+x1VlXRfQER9aEV2J1apTkhlYNwL8I0aC3keLh/IIigy9Pf7sZKknyI0EE0iSW2EJX9+oQGyk0Pnn+q0HqHtLasCznrjI1w/+rJ+Yve+UZI5lBZWGWIro8+5IElAT09Jelq4zefFsdUw2bGSGIdLoTb2TzugnvyE4swANG4DMeCCOmpARX1HU7Jgx/dCWc/S8n/y1ZCsD3fWNqF/4QDJV/5+G/Ejds8jnj2Gn5QqLH20nT55tJureazMpuBNZVdH6gWemcFtYi+Mn8TGFCzZVcauq4n7WhavI/k44iNjWf2bpcY7CIUYIrmCIvZg/EWJOh8nuqveH5sFp3EQkYlDhHs8a6XTwWy24O6sIIA41EWcH9UVZXIqJlX+7TZZsM/m/WsyP8mLxqzNsE42xkuy8kzjMlD+axuAnLhLCAiKsQmTo5NdQcmOuADInUYOMqB/v7ZqEBJzYD0vgIwBLT6fEXup1SowuQk6MsxPgDHpGNgen0PXHdcLWnu/0YWI7YLdJ6s2hc0i5J6dMtrIBHYL+0b3t3yromPqRqjY/uEIzUPBBkromiBavUpfEsZoj+pAgywlNZ2IFFwyzTn+KKusUpzx+yc9xHdKiINZ4Y62xtPS6B7dgb2XtmJkkIetr2VJhuZ8T52940WLEL5W62mX8z+0+KCJZfQawo3GY9MhEMj7fMjZLTD4p6MlYzB//np3c/D8y9nwobRXvW9mqFMhuPddpboaCN9ibua4HDgd8xsTsMXC1spGFGVoq3d0C7HLFRqrCF4aKddgY+wMj0bKni637rj/r9rcFtYxwI0iAaNV9nM3dsRFGzv8BtkRmiaBp5jbYLg==|920
