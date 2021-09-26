@@ -141,7 +141,14 @@
   },
   {
     "ModuleName": "Tables/nancy",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-09-26T11:10:07.1926467+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Pages/Cindy",
@@ -149,7 +156,17 @@
   },
   {
     "ModuleName": "Table/表1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-09-26T11:10:07.1926467+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\nancy\\表1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -158,11 +175,27 @@
   },
   {
     "ModuleName": "Tables/Cindy",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-09-26T11:10:07.1926467+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/test_skip_1",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-09-26T11:10:07.1926467+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Cindy\\test_skip_1.json"
+    ]
   },
   {
     "ModuleName": "PCPage/test_skip_1_详情页面",
