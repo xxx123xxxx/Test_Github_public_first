@@ -236,7 +236,16 @@
   },
   {
     "ModuleName": "MobilePage/_",
-    "ModuleType": 2
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-26T17:03:07.0658444+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\zoey\\_.json"
+    ]
   },
   {
     "ModuleName": "Pages/zoey/zoe",
@@ -249,7 +258,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-09-26T17:02:49.003984+08:00",
+    "LockDateTime": "2021-09-26T17:03:07.0658444+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\zoey\\zoe\\testpage1.json"
