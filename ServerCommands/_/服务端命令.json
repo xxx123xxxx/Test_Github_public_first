@@ -1,0 +1,48 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "参数1"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+      "From": "%CurrentUser%",
+      "Subject": "aaa",
+      "Content": "aaa",
+      "EnhancedRecipient": {
+        "TableName": "buildintabletest",
+        "TableColumn": {
+          "TableName": "buildintabletest",
+          "ColumnName": "aaa"
+        },
+        "QueryCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "buildintabletest",
+            "ColumnName": "ID"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1"
+          },
+          "Id": "2061116f-3868-43b2-8857-168e4b5f95e2"
+        },
+        "IsMultiRecipient": true
+      },
+      "ID": "00fdbf730fec4c55b5719393c2817094"
+    }
+  ],
+  "Name": "服务端命令"
+}

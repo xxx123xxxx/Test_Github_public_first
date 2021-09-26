@@ -1,0 +1,367 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 47
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 73.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "自动编号:",
+    "7,6": "charType:",
+    "14,6": "characterType:",
+    "16,6": "character verying Type:",
+    "18,6": "textType:",
+    "20,6": "xmlType:",
+    "22,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "test_textlength",
+        "ColumnName": "ID"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "test_textlength",
+        "ColumnName": "varcharType"
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon"
+      },
+      "BindingInfo": {
+        "TableName": "test_textlength",
+        "ColumnName": "charType"
+      }
+    },
+    "14,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "test_textlength",
+        "ColumnName": "characterType"
+      }
+    },
+    "16,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "test_textlength",
+        "ColumnName": "CVType"
+      }
+    },
+    "18,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "test_textlength",
+        "ColumnName": "textType"
+      }
+    },
+    "20,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "test_textlength",
+        "ColumnName": "xmlType"
+      }
+    },
+    "22,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=test_textlength_详情页面!K23"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "871313f8-cd5d-4595-83f6-42de8d4b5bea"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "test_textlength",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "af6e1e04-e860-466f-b700-58ebf58acbc7"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=test_textlength_详情页面!K23"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "6629155a-d1b3-4e9d-9fec-818220e1a21f"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "test_textlength",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "77c4c2cf-b850-4926-a6cd-856c6c39cf89"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "22,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "FontFamily": 2,
+        "FontWeight": 0,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "@",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "5,14": 1,
+      "7,6": 0,
+      "14,6": 0,
+      "14,14": 1,
+      "16,0": 2,
+      "16,1": 2,
+      "16,2": 2,
+      "16,3": 2,
+      "16,4": 2,
+      "16,5": 2,
+      "16,6": 3,
+      "16,7": 2,
+      "16,8": 2,
+      "16,9": 2,
+      "16,10": 2,
+      "16,11": 2,
+      "16,12": 2,
+      "16,13": 2,
+      "16,14": 4,
+      "16,20": 2,
+      "16,21": 2,
+      "16,22": 2,
+      "16,23": 2,
+      "16,24": 2,
+      "16,25": 2,
+      "16,26": 2,
+      "16,27": 2,
+      "16,28": 2,
+      "16,29": 2,
+      "16,30": 2,
+      "16,31": 2,
+      "16,32": 2,
+      "16,33": 2,
+      "16,34": 2,
+      "16,35": 2,
+      "16,36": 2,
+      "16,37": 2,
+      "16,38": 2,
+      "16,39": 2,
+      "16,40": 2,
+      "16,41": 2,
+      "16,42": 2,
+      "16,43": 2,
+      "16,44": 2,
+      "16,45": 2,
+      "16,46": 2,
+      "16,47": 2,
+      "16,48": 2,
+      "16,49": 2,
+      "16,50": 2,
+      "16,51": 2,
+      "16,52": 2,
+      "16,53": 2,
+      "16,54": 2,
+      "16,55": 2,
+      "16,56": 2,
+      "16,57": 2,
+      "16,58": 2,
+      "16,59": 2,
+      "18,6": 0,
+      "18,14": 1,
+      "20,6": 0,
+      "20,14": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,6,6",
+    "18,14,1,6",
+    "20,14,1,6",
+    "22,10,1,4",
+    "22,16,1,4",
+    "14,14,1,6",
+    "16,14,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//0rE/Kj7R3bNt/rBIkEjnzQk3SgaA9QIJxNpaDqcvMbTA6ddG4H0UBKO6bugP97zfAKDWxfFXwzmqM7BfvAl0WAC+/4EzYkpCRvUZGQsymRFvmP1pWcEHZcLOYI//0oex8ypifCE2RrWzGmLBCT/a5wyXp5+xBW5+T4tcuXpgH4GJFNc0mGq1AzjoSCKQTSx2rFng/Ck1QO+1SIWN6F6W/2tgtjRPMDd6saDr6ocCtw2YXY3WaoPuVrQfa0eEOj2fyB7CMHfQ+UnqTGSpf26hwWuGa88t5m7/qAXQDO2kp+zMtaX1/Y0M8Ea80Ok59RR909hGK9fgC8xxgfFBOV2m5b6msxuRfL/7JVe8Qabr3zGxL6kX8k+kzJmfpGKNRCEuJWsj+SryD3gzKoFZ55xjyutVfV+7+REfuWfBpsu2Ggy1r+0m9Iy7eG9m3Jd1Qga7VdfKg8chMWYhE/XYT22MAsbjr4Yd3JgYNGVL7YJZsdPl3bnPH7BvNWoJuA0QrA70udIGeqk564IYRMf00/XpcRpGmwPdl5b7PnvmcJTtfF9GnGS7xi9J6Nxcf36uOToMLIDy7rfTvNIIRP/1Ioa4BEdj8D3z2PAIaeQnIXGY22GkcWagIvcPuNR384v5TBjI1cXwgFFd9j2KG1dQEaeZqjP4UiZ1g+GkV73WRoOvUe6r/zzXetxgOC2HVMBoFAtOFyO0Sp0ZheJa4JYZWwBUCEpxfzHUeTLVKk2O3WRB6C39nj80dvfj0wssIHj/ZrATZ1ZlJ4jlIfkNdhTyheCKmo4aEpYJ68cTFhte90ZR8mkirvdCGSWK9QJwnhYJPivWsBXlrw2AHnPWUDFHEykU4j0kgHoGx4cc0NMHdS8RfM8TWWxrJZ27lYrCsMadjYMtyKUYWp68aq4NNslxyRWb1w==|920

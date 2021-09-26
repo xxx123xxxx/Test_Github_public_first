@@ -1,0 +1,2309 @@
+{
+  "Rows": {
+    "Count": 54
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "0,1": "勾选",
+    "0,10": "不勾选",
+    "26,19": "111",
+    "26,31": "111",
+    "33,19": "前景色",
+    "33,25": "禁用",
+    "42,34": "111",
+    "42,38": "111"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1",
+        "Icon": {
+          "Name": "Application/002_add_2.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        },
+        "IconSize": 30.0
+      }
+    },
+    "1,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1",
+        "Icon": {
+          "Name": "Mobile/452_help_1.svg",
+          "BuiltIn": true,
+          "Color": "Accent 5 0"
+        },
+        "IconSize": 30.0
+      }
+    },
+    "1,19": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "样式1",
+        "Items": [
+          {
+            "Text": "菜单1",
+            "IconPath": "Navigation/165_home_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单1_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单1_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "菜单2",
+            "IconPath": "Application/119_mail_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单2_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单2_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "菜单3",
+            "IconPath": "Application/086_key_5.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单3_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单3_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 17.33,
+            "Bold": true,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 16.0,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "1,30": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "样式1",
+        "Items": [
+          {
+            "Text": "菜单1",
+            "IconPath": "Navigation/165_home_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColor": "Accent 5 0",
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单1_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单1_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "菜单2",
+            "IconPath": "Application/121_send_1.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColor": "Accent 5 0",
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单2_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单2_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "菜单3",
+            "IconPath": "Application/086_key_5.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColor": "Accent 5 0",
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单3_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单3_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 17.33,
+            "Bold": true,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 16.0,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "9,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1",
+        "ImagePath": "Navigation/195_theme_1.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1",
+        "UseCellForeColor": true
+      }
+    },
+    "9,10": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1",
+        "ImagePath": "Navigation/197_dashboard_1.svg",
+        "BuiltIn": true,
+        "Color": "Accent 5 0"
+      }
+    },
+    "17,1": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1",
+        "ImagePath": "File/348_excel_file_1.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1",
+        "UseCellForeColor": true
+      }
+    },
+    "17,10": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1",
+        "ImagePath": "File/359_pdf_file_2.svg",
+        "BuiltIn": true,
+        "Color": "Accent 5 0"
+      }
+    },
+    "25,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Chart/368_treemap_chart_1.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70",
+          "UseCellTypeForeColor": true
+        },
+        "IconSize": 30.0,
+        "TemplateKey": "样式1"
+      }
+    },
+    "25,10": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Chart/373_rose_chart_1.svg",
+          "BuiltIn": true,
+          "Color": "Accent 5 0"
+        },
+        "IconSize": 30.0,
+        "TemplateKey": "样式1"
+      }
+    },
+    "25,19": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "表1",
+        "RowIndex": 25,
+        "ColumnIndex": 19,
+        "ColumnCount": 21,
+        "RowCount": 7,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "26,19": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/027_edit_7.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70",
+          "UseCellTypeForeColor": true
+        },
+        "CellDefaultValue": "111"
+      }
+    },
+    "26,22": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "Application/080_lock_3.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1",
+        "UseCellForeColor": true
+      }
+    },
+    "26,25": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "ImagePath": "Application/083_key_2.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1",
+        "UseCellForeColor": true
+      }
+    },
+    "26,28": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "ID"
+      }
+    },
+    "26,31": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/027_edit_7.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "CellDefaultValue": "111"
+      }
+    },
+    "26,34": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "Application/080_lock_3.svg",
+        "BuiltIn": true,
+        "Color": "Accent 5 0"
+      }
+    },
+    "26,37": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "ImagePath": "Application/083_key_2.svg",
+        "BuiltIn": true,
+        "Color": "Accent 5 0"
+      }
+    },
+    "33,1": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyTreeCellType, Forguncy.CustomMenu",
+        "Items": [
+          {
+            "Value": "结点1",
+            "Text": "结点1",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "结点1_1",
+                "Text": "结点1_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "结点1_2",
+                "Text": "结点1_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "结点2",
+            "Text": "结点2",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "结点2_1",
+                "Text": "结点2_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "结点2_2",
+                "Text": "结点2_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "结点3",
+            "Text": "结点3",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "结点3_1",
+                "Text": "结点3_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "结点3_2",
+                "Text": "结点3_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "DefaultExpandStyle": 0,
+        "ExpandIcon": {
+          "Name": "Arrow/290_down_arrow_2.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        },
+        "CloseIcon": {
+          "Name": "Arrow/289_up_arrow_2.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        },
+        "TemplateKey": "样式1"
+      }
+    },
+    "33,10": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyTreeCellType, Forguncy.CustomMenu",
+        "Items": [
+          {
+            "Value": "结点1",
+            "Text": "结点1",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "结点1_1",
+                "Text": "结点1_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "结点1_2",
+                "Text": "结点1_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "结点2",
+            "Text": "结点2",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "结点2_1",
+                "Text": "结点2_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "结点2_2",
+                "Text": "结点2_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "结点3",
+            "Text": "结点3",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "结点3_1",
+                "Text": "结点3_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "结点3_2",
+                "Text": "结点3_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "DefaultExpandStyle": 0,
+        "ExpandIcon": {
+          "Name": "Arrow/298_down_arrow_4.svg",
+          "BuiltIn": true,
+          "Color": "Accent 5 0"
+        },
+        "CloseIcon": {
+          "Name": "Arrow/297_up_arrow_4.svg",
+          "BuiltIn": true,
+          "Color": "Accent 5 0"
+        },
+        "TemplateKey": "样式1"
+      }
+    },
+    "33,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=普通!B2,普通!K2,普通!B10,普通!K10,普通!B18,普通!K18,普通!B26,普通!K26,普通!B34,普通!K34,普通!B47,普通!K47,普通!B51,普通!K51,普通!T2,普通!AE2"
+                },
+                "PropertyType": 3,
+                "Value": "#FF05FAB8"
+              }
+            ]
+          }
+        ],
+        "Text": "前景色",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "33,25": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=普通!B2,普通!K2,普通!B10,普通!K10,普通!B18,普通!K18,普通!B26,普通!K26,普通!B34,普通!K34,普通!B47,普通!K47,普通!B51,普通!K51,普通!T2,普通!AE2"
+                },
+                "PropertyType": 0,
+                "Value": false
+              }
+            ]
+          }
+        ],
+        "Text": "禁用",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "41,34": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "表1",
+        "RowIndex": 41,
+        "ColumnIndex": 34,
+        "ColumnCount": 7,
+        "RowCount": 3,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格3",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "42,34": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/027_edit_7.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70",
+          "UseCellTypeForeColor": true
+        },
+        "CellDefaultValue": "111"
+      }
+    },
+    "42,35": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "Application/080_lock_3.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1",
+        "UseCellForeColor": true
+      }
+    },
+    "42,36": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "ImagePath": "Application/083_key_2.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1",
+        "UseCellForeColor": true
+      }
+    },
+    "42,37": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "ID"
+      }
+    },
+    "42,38": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/027_edit_7.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "CellDefaultValue": "111"
+      }
+    },
+    "42,39": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "Application/080_lock_3.svg",
+        "BuiltIn": true,
+        "Color": "Accent 5 0"
+      }
+    },
+    "42,40": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "ImagePath": "Application/083_key_2.svg",
+        "BuiltIn": true,
+        "Color": "Accent 5 0"
+      }
+    },
+    "46,1": {
+      "CellType": {
+        "$type": "Forguncy.RecordNavigationCellType, ServerDesignerCommon",
+        "RecordDataTable": "表2",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "46,10": {
+      "CellType": {
+        "$type": "Forguncy.RecordNavigationCellType, ServerDesignerCommon",
+        "RecordDataTable": "表2",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        }
+      }
+    },
+    "46,19": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "表7",
+        "RowIndex": 46,
+        "ColumnIndex": 19,
+        "ColumnCount": 4,
+        "RowCount": 3,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格2",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "47,19": {
+      "BindingInfo": {
+        "TableName": "表7",
+        "ColumnName": "ID"
+      }
+    },
+    "47,21": {
+      "BindingInfo": {
+        "TableName": "表7",
+        "ColumnName": "文本"
+      }
+    },
+    "50,1": {
+      "CellType": {
+        "$type": "Forguncy.PageNavigateCellType, ServerDesignerCommon",
+        "PageingListviewName": "表格2",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "50,10": {
+      "CellType": {
+        "$type": "Forguncy.PageNavigateCellType, ServerDesignerCommon",
+        "PageingListviewName": "表格2",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 1
+      },
+      {
+        "Foreground": 1,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FFE21DE2",
+        "@",
+        "DarkGray",
+        "[AUTO]General",
+        "Center"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 2,
+      "1,10": 0,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,14": 1,
+      "1,15": 1,
+      "1,16": 1,
+      "1,17": 1,
+      "1,18": 2,
+      "1,19": 2,
+      "1,29": 2,
+      "1,30": 0,
+      "1,40": 2,
+      "1,41": 2,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 2,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 2,
+      "2,29": 2,
+      "2,40": 2,
+      "2,41": 2,
+      "3,1": 1,
+      "3,2": 1,
+      "3,3": 1,
+      "3,4": 1,
+      "3,5": 1,
+      "3,6": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "3,9": 2,
+      "3,10": 1,
+      "3,11": 1,
+      "3,12": 1,
+      "3,13": 1,
+      "3,14": 1,
+      "3,15": 1,
+      "3,16": 1,
+      "3,17": 1,
+      "3,18": 2,
+      "3,29": 2,
+      "3,40": 2,
+      "3,41": 2,
+      "4,1": 1,
+      "4,2": 1,
+      "4,3": 1,
+      "4,4": 1,
+      "4,5": 1,
+      "4,6": 1,
+      "4,7": 1,
+      "4,8": 1,
+      "4,9": 2,
+      "4,10": 1,
+      "4,11": 1,
+      "4,12": 1,
+      "4,13": 1,
+      "4,14": 1,
+      "4,15": 1,
+      "4,16": 1,
+      "4,17": 1,
+      "4,18": 2,
+      "4,29": 2,
+      "4,40": 2,
+      "4,41": 2,
+      "5,1": 1,
+      "5,2": 1,
+      "5,3": 1,
+      "5,4": 1,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 2,
+      "5,10": 1,
+      "5,11": 1,
+      "5,12": 1,
+      "5,13": 1,
+      "5,14": 1,
+      "5,15": 1,
+      "5,16": 1,
+      "5,17": 1,
+      "5,18": 2,
+      "5,29": 2,
+      "5,40": 2,
+      "5,41": 2,
+      "6,1": 1,
+      "6,2": 1,
+      "6,3": 1,
+      "6,4": 1,
+      "6,5": 1,
+      "6,6": 1,
+      "6,7": 1,
+      "6,8": 1,
+      "6,9": 2,
+      "6,10": 1,
+      "6,11": 1,
+      "6,12": 1,
+      "6,13": 1,
+      "6,14": 1,
+      "6,15": 1,
+      "6,16": 1,
+      "6,17": 1,
+      "6,18": 2,
+      "6,29": 2,
+      "6,40": 2,
+      "6,41": 2,
+      "7,1": 1,
+      "7,2": 1,
+      "7,3": 1,
+      "7,4": 1,
+      "7,5": 1,
+      "7,6": 1,
+      "7,7": 1,
+      "7,8": 1,
+      "7,9": 2,
+      "7,10": 1,
+      "7,11": 1,
+      "7,12": 1,
+      "7,13": 1,
+      "7,14": 1,
+      "7,15": 1,
+      "7,16": 1,
+      "7,17": 1,
+      "7,18": 2,
+      "7,29": 2,
+      "7,40": 2,
+      "7,41": 2,
+      "8,1": 2,
+      "8,2": 2,
+      "8,3": 2,
+      "8,4": 2,
+      "8,5": 2,
+      "8,6": 2,
+      "8,7": 2,
+      "8,8": 2,
+      "8,9": 2,
+      "8,10": 2,
+      "8,11": 2,
+      "8,12": 2,
+      "8,13": 2,
+      "8,14": 2,
+      "8,15": 2,
+      "8,16": 2,
+      "8,17": 2,
+      "8,18": 2,
+      "8,29": 2,
+      "8,40": 2,
+      "8,41": 2,
+      "9,1": 2,
+      "9,9": 2,
+      "9,10": 0,
+      "9,11": 1,
+      "9,12": 1,
+      "9,13": 1,
+      "9,14": 1,
+      "9,15": 1,
+      "9,16": 1,
+      "9,17": 1,
+      "9,18": 2,
+      "9,29": 2,
+      "9,40": 2,
+      "9,41": 2,
+      "10,9": 2,
+      "10,10": 1,
+      "10,11": 1,
+      "10,12": 1,
+      "10,13": 1,
+      "10,14": 1,
+      "10,15": 1,
+      "10,16": 1,
+      "10,17": 1,
+      "10,18": 2,
+      "10,29": 2,
+      "10,40": 2,
+      "10,41": 2,
+      "11,9": 2,
+      "11,10": 1,
+      "11,11": 1,
+      "11,12": 1,
+      "11,13": 1,
+      "11,14": 1,
+      "11,15": 1,
+      "11,16": 1,
+      "11,17": 1,
+      "11,18": 2,
+      "11,29": 2,
+      "11,40": 2,
+      "11,41": 2,
+      "12,9": 2,
+      "12,10": 1,
+      "12,11": 1,
+      "12,12": 1,
+      "12,13": 1,
+      "12,14": 1,
+      "12,15": 1,
+      "12,16": 1,
+      "12,17": 1,
+      "12,18": 2,
+      "12,29": 2,
+      "12,40": 2,
+      "12,41": 2,
+      "13,9": 2,
+      "13,10": 1,
+      "13,11": 1,
+      "13,12": 1,
+      "13,13": 1,
+      "13,14": 1,
+      "13,15": 1,
+      "13,16": 1,
+      "13,17": 1,
+      "13,18": 2,
+      "13,29": 2,
+      "13,40": 2,
+      "13,41": 2,
+      "14,9": 2,
+      "14,10": 1,
+      "14,11": 1,
+      "14,12": 1,
+      "14,13": 1,
+      "14,14": 1,
+      "14,15": 1,
+      "14,16": 1,
+      "14,17": 1,
+      "14,18": 2,
+      "14,29": 2,
+      "14,40": 2,
+      "14,41": 2,
+      "15,9": 2,
+      "15,10": 1,
+      "15,11": 1,
+      "15,12": 1,
+      "15,13": 1,
+      "15,14": 1,
+      "15,15": 1,
+      "15,16": 1,
+      "15,17": 1,
+      "15,18": 2,
+      "15,29": 2,
+      "15,40": 2,
+      "15,41": 2,
+      "15,47": 1,
+      "15,48": 1,
+      "15,49": 1,
+      "15,50": 1,
+      "15,51": 1,
+      "15,52": 1,
+      "15,53": 1,
+      "15,54": 1,
+      "16,1": 2,
+      "16,2": 2,
+      "16,3": 2,
+      "16,4": 2,
+      "16,5": 2,
+      "16,6": 2,
+      "16,7": 2,
+      "16,8": 2,
+      "16,9": 2,
+      "16,10": 2,
+      "16,11": 2,
+      "16,12": 2,
+      "16,13": 2,
+      "16,14": 2,
+      "16,15": 2,
+      "16,16": 2,
+      "16,17": 2,
+      "16,18": 2,
+      "16,29": 2,
+      "16,40": 2,
+      "16,41": 2,
+      "16,47": 1,
+      "16,48": 1,
+      "16,49": 1,
+      "16,50": 1,
+      "16,51": 1,
+      "16,52": 1,
+      "16,53": 1,
+      "16,54": 1,
+      "17,1": 2,
+      "17,9": 2,
+      "17,10": 0,
+      "17,11": 1,
+      "17,12": 1,
+      "17,13": 1,
+      "17,14": 1,
+      "17,15": 1,
+      "17,16": 1,
+      "17,17": 1,
+      "17,18": 2,
+      "17,29": 2,
+      "17,40": 2,
+      "17,41": 2,
+      "17,47": 1,
+      "17,48": 1,
+      "17,49": 1,
+      "17,50": 1,
+      "17,51": 1,
+      "17,52": 1,
+      "17,53": 1,
+      "17,54": 1,
+      "18,9": 2,
+      "18,10": 1,
+      "18,11": 1,
+      "18,12": 1,
+      "18,13": 1,
+      "18,14": 1,
+      "18,15": 1,
+      "18,16": 1,
+      "18,17": 1,
+      "18,18": 2,
+      "18,29": 2,
+      "18,40": 2,
+      "18,41": 2,
+      "19,9": 2,
+      "19,10": 1,
+      "19,11": 1,
+      "19,12": 1,
+      "19,13": 1,
+      "19,14": 1,
+      "19,15": 1,
+      "19,16": 1,
+      "19,17": 1,
+      "19,18": 2,
+      "19,29": 2,
+      "19,40": 2,
+      "19,41": 2,
+      "20,9": 2,
+      "20,10": 1,
+      "20,11": 1,
+      "20,12": 1,
+      "20,13": 1,
+      "20,14": 1,
+      "20,15": 1,
+      "20,16": 1,
+      "20,17": 1,
+      "20,18": 2,
+      "20,29": 2,
+      "20,40": 2,
+      "20,41": 2,
+      "21,9": 2,
+      "21,10": 1,
+      "21,11": 1,
+      "21,12": 1,
+      "21,13": 1,
+      "21,14": 1,
+      "21,15": 1,
+      "21,16": 1,
+      "21,17": 1,
+      "21,18": 2,
+      "21,29": 2,
+      "21,40": 2,
+      "21,41": 2,
+      "22,9": 2,
+      "22,10": 1,
+      "22,11": 1,
+      "22,12": 1,
+      "22,13": 1,
+      "22,14": 1,
+      "22,15": 1,
+      "22,16": 1,
+      "22,17": 1,
+      "22,18": 2,
+      "22,29": 2,
+      "22,40": 2,
+      "22,41": 2,
+      "23,9": 2,
+      "23,10": 1,
+      "23,11": 1,
+      "23,12": 1,
+      "23,13": 1,
+      "23,14": 1,
+      "23,15": 1,
+      "23,16": 1,
+      "23,17": 1,
+      "23,18": 2,
+      "23,29": 2,
+      "23,40": 2,
+      "23,41": 2,
+      "24,1": 2,
+      "24,2": 2,
+      "24,3": 2,
+      "24,4": 2,
+      "24,5": 2,
+      "24,6": 2,
+      "24,7": 2,
+      "24,8": 2,
+      "24,9": 2,
+      "24,10": 2,
+      "24,11": 2,
+      "24,12": 2,
+      "24,13": 2,
+      "24,14": 2,
+      "24,15": 2,
+      "24,16": 2,
+      "24,17": 2,
+      "24,30": 1,
+      "24,31": 1,
+      "24,32": 1,
+      "24,33": 1,
+      "24,34": 1,
+      "24,35": 1,
+      "24,36": 1,
+      "24,37": 1,
+      "24,38": 1,
+      "24,39": 1,
+      "25,1": 3,
+      "25,9": 2,
+      "25,10": 4,
+      "25,11": 1,
+      "25,12": 1,
+      "25,13": 1,
+      "25,14": 1,
+      "25,15": 1,
+      "25,16": 1,
+      "25,17": 1,
+      "25,19": 5,
+      "25,20": 6,
+      "25,21": 6,
+      "25,22": 7,
+      "25,23": 6,
+      "25,24": 6,
+      "25,25": 7,
+      "25,26": 6,
+      "25,27": 6,
+      "25,28": 6,
+      "25,29": 6,
+      "25,30": 6,
+      "25,31": 6,
+      "25,32": 6,
+      "25,33": 6,
+      "25,34": 6,
+      "25,35": 7,
+      "25,36": 7,
+      "25,37": 6,
+      "25,38": 6,
+      "25,39": 8,
+      "26,9": 2,
+      "26,10": 1,
+      "26,11": 1,
+      "26,12": 1,
+      "26,13": 1,
+      "26,14": 1,
+      "26,15": 1,
+      "26,16": 1,
+      "26,17": 1,
+      "26,19": 9,
+      "26,22": 1,
+      "26,25": 10,
+      "26,31": 9,
+      "26,32": 1,
+      "26,33": 1,
+      "26,34": 1,
+      "26,35": 1,
+      "26,36": 1,
+      "26,37": 10,
+      "26,38": 1,
+      "26,39": 1,
+      "27,9": 2,
+      "27,10": 1,
+      "27,11": 1,
+      "27,12": 1,
+      "27,13": 1,
+      "27,14": 1,
+      "27,15": 1,
+      "27,16": 1,
+      "27,17": 1,
+      "27,19": 11,
+      "27,39": 12,
+      "28,9": 2,
+      "28,10": 1,
+      "28,11": 1,
+      "28,12": 1,
+      "28,13": 1,
+      "28,14": 1,
+      "28,15": 1,
+      "28,16": 1,
+      "28,17": 1,
+      "28,19": 11,
+      "28,39": 12,
+      "29,9": 2,
+      "29,10": 1,
+      "29,11": 1,
+      "29,12": 1,
+      "29,13": 1,
+      "29,14": 1,
+      "29,15": 1,
+      "29,16": 1,
+      "29,17": 1,
+      "29,19": 11,
+      "29,39": 12,
+      "30,9": 2,
+      "30,10": 1,
+      "30,11": 1,
+      "30,12": 1,
+      "30,13": 1,
+      "30,14": 1,
+      "30,15": 1,
+      "30,16": 1,
+      "30,17": 1,
+      "30,19": 11,
+      "30,39": 12,
+      "31,9": 2,
+      "31,10": 1,
+      "31,11": 1,
+      "31,12": 1,
+      "31,13": 1,
+      "31,14": 1,
+      "31,15": 1,
+      "31,16": 1,
+      "31,17": 1,
+      "31,19": 13,
+      "31,20": 14,
+      "31,21": 14,
+      "31,22": 14,
+      "31,23": 14,
+      "31,24": 14,
+      "31,25": 14,
+      "31,26": 14,
+      "31,27": 14,
+      "31,28": 14,
+      "31,29": 14,
+      "31,30": 14,
+      "31,31": 14,
+      "31,32": 14,
+      "31,33": 14,
+      "31,34": 14,
+      "31,35": 14,
+      "31,36": 14,
+      "31,37": 14,
+      "31,38": 14,
+      "31,39": 15,
+      "32,1": 2,
+      "32,2": 2,
+      "32,3": 2,
+      "32,4": 2,
+      "32,5": 2,
+      "32,6": 2,
+      "32,7": 2,
+      "32,8": 2,
+      "32,9": 2,
+      "32,10": 2,
+      "32,11": 2,
+      "32,12": 2,
+      "32,13": 2,
+      "32,14": 2,
+      "32,15": 2,
+      "32,16": 2,
+      "32,17": 2,
+      "33,1": 0,
+      "33,9": 2,
+      "33,10": 0,
+      "33,11": 1,
+      "33,12": 1,
+      "33,13": 1,
+      "33,14": 1,
+      "33,15": 1,
+      "33,16": 1,
+      "33,17": 1,
+      "33,19": 16,
+      "33,20": 1,
+      "33,21": 1,
+      "33,22": 1,
+      "33,23": 1,
+      "34,9": 2,
+      "34,10": 1,
+      "34,11": 1,
+      "34,12": 1,
+      "34,13": 1,
+      "34,14": 1,
+      "34,15": 1,
+      "34,16": 1,
+      "34,17": 1,
+      "34,19": 1,
+      "34,20": 1,
+      "34,21": 1,
+      "34,22": 1,
+      "34,23": 1,
+      "35,9": 2,
+      "35,10": 1,
+      "35,11": 1,
+      "35,12": 1,
+      "35,13": 1,
+      "35,14": 1,
+      "35,15": 1,
+      "35,16": 1,
+      "35,17": 1,
+      "35,19": 1,
+      "35,20": 1,
+      "35,21": 1,
+      "35,22": 1,
+      "35,23": 1,
+      "36,9": 2,
+      "36,10": 1,
+      "36,11": 1,
+      "36,12": 1,
+      "36,13": 1,
+      "36,14": 1,
+      "36,15": 1,
+      "36,16": 1,
+      "36,17": 1,
+      "37,9": 2,
+      "37,10": 1,
+      "37,11": 1,
+      "37,12": 1,
+      "37,13": 1,
+      "37,14": 1,
+      "37,15": 1,
+      "37,16": 1,
+      "37,17": 1,
+      "38,9": 2,
+      "38,10": 1,
+      "38,11": 1,
+      "38,12": 1,
+      "38,13": 1,
+      "38,14": 1,
+      "38,15": 1,
+      "38,16": 1,
+      "38,17": 1,
+      "39,9": 2,
+      "39,10": 1,
+      "39,11": 1,
+      "39,12": 1,
+      "39,13": 1,
+      "39,14": 1,
+      "39,15": 1,
+      "39,16": 1,
+      "39,17": 1,
+      "40,9": 2,
+      "40,10": 1,
+      "40,11": 1,
+      "40,12": 1,
+      "40,13": 1,
+      "40,14": 1,
+      "40,15": 1,
+      "40,16": 1,
+      "40,17": 1,
+      "41,9": 2,
+      "41,10": 1,
+      "41,11": 1,
+      "41,12": 1,
+      "41,13": 1,
+      "41,14": 1,
+      "41,15": 1,
+      "41,16": 1,
+      "41,17": 1,
+      "41,34": 5,
+      "41,35": 17,
+      "41,36": 17,
+      "41,37": 7,
+      "41,38": 7,
+      "41,39": 7,
+      "41,40": 18,
+      "42,9": 2,
+      "42,10": 1,
+      "42,11": 1,
+      "42,12": 1,
+      "42,13": 1,
+      "42,14": 1,
+      "42,15": 1,
+      "42,16": 1,
+      "42,17": 1,
+      "42,34": 9,
+      "42,35": 19,
+      "42,36": 20,
+      "42,37": 1,
+      "42,38": 9,
+      "42,39": 1,
+      "42,40": 21,
+      "43,0": 1,
+      "43,9": 0,
+      "43,10": 1,
+      "43,11": 1,
+      "43,12": 1,
+      "43,13": 1,
+      "43,14": 1,
+      "43,15": 1,
+      "43,16": 1,
+      "43,17": 1,
+      "43,18": 1,
+      "43,19": 1,
+      "43,20": 1,
+      "43,21": 1,
+      "43,22": 1,
+      "43,23": 1,
+      "43,24": 1,
+      "43,25": 1,
+      "43,26": 1,
+      "43,27": 1,
+      "43,28": 1,
+      "43,29": 1,
+      "43,30": 1,
+      "43,31": 1,
+      "43,32": 1,
+      "43,33": 1,
+      "43,34": 22,
+      "43,35": 23,
+      "43,36": 23,
+      "43,37": 23,
+      "43,38": 23,
+      "43,39": 23,
+      "43,40": 24,
+      "43,55": 1,
+      "43,56": 1,
+      "43,57": 1,
+      "43,58": 1,
+      "43,59": 1,
+      "44,0": 1,
+      "44,9": 0,
+      "44,10": 1,
+      "44,11": 1,
+      "44,12": 1,
+      "44,13": 1,
+      "44,14": 1,
+      "44,15": 1,
+      "44,16": 1,
+      "44,17": 1,
+      "44,18": 1,
+      "44,19": 1,
+      "44,20": 1,
+      "44,21": 1,
+      "44,22": 1,
+      "44,23": 1,
+      "44,24": 1,
+      "44,25": 1,
+      "44,26": 1,
+      "44,27": 1,
+      "44,28": 1,
+      "44,29": 1,
+      "44,30": 1,
+      "44,31": 1,
+      "44,32": 1,
+      "44,33": 1,
+      "44,55": 1,
+      "44,56": 1,
+      "44,57": 1,
+      "44,58": 1,
+      "44,59": 1,
+      "45,0": 1,
+      "45,9": 1,
+      "45,10": 1,
+      "45,11": 1,
+      "45,12": 1,
+      "45,13": 1,
+      "45,14": 1,
+      "45,15": 1,
+      "45,16": 1,
+      "45,17": 1,
+      "45,18": 1,
+      "45,19": 1,
+      "45,20": 1,
+      "45,21": 1,
+      "45,22": 1,
+      "45,23": 1,
+      "45,24": 1,
+      "45,25": 1,
+      "45,26": 1,
+      "45,27": 1,
+      "45,28": 1,
+      "45,29": 1,
+      "45,30": 1,
+      "45,31": 1,
+      "45,32": 1,
+      "45,33": 1,
+      "45,55": 1,
+      "45,56": 1,
+      "45,57": 1,
+      "45,58": 1,
+      "45,59": 1,
+      "46,0": 1,
+      "46,1": 25,
+      "46,9": 0,
+      "46,10": 25,
+      "46,18": 0,
+      "46,19": 26,
+      "46,20": 27,
+      "46,21": 28,
+      "46,22": 29,
+      "46,23": 1,
+      "46,24": 1,
+      "46,25": 1,
+      "46,26": 1,
+      "46,27": 1,
+      "46,28": 1,
+      "46,29": 1,
+      "46,30": 1,
+      "46,31": 1,
+      "46,32": 1,
+      "46,33": 1,
+      "46,55": 1,
+      "46,56": 1,
+      "46,57": 1,
+      "46,58": 1,
+      "46,59": 1,
+      "47,0": 1,
+      "47,9": 0,
+      "47,18": 0,
+      "47,19": 30,
+      "47,21": 31,
+      "47,22": 32,
+      "47,23": 1,
+      "47,24": 1,
+      "47,25": 1,
+      "47,26": 1,
+      "47,27": 1,
+      "47,28": 1,
+      "47,29": 1,
+      "47,30": 1,
+      "47,31": 1,
+      "47,32": 1,
+      "47,33": 1,
+      "47,55": 1,
+      "47,56": 1,
+      "47,57": 1,
+      "47,58": 1,
+      "47,59": 1,
+      "48,0": 1,
+      "48,9": 0,
+      "48,18": 0,
+      "48,19": 13,
+      "48,20": 14,
+      "48,21": 14,
+      "48,22": 15,
+      "48,23": 1,
+      "48,24": 1,
+      "48,25": 1,
+      "48,26": 1,
+      "48,27": 1,
+      "48,28": 1,
+      "48,29": 1,
+      "48,30": 1,
+      "48,31": 1,
+      "48,32": 1,
+      "48,33": 1,
+      "48,34": 1,
+      "48,35": 1,
+      "48,36": 1,
+      "48,37": 1,
+      "48,38": 1,
+      "48,39": 1,
+      "48,40": 1,
+      "48,41": 1,
+      "48,42": 1,
+      "48,43": 1,
+      "48,44": 1,
+      "48,45": 1,
+      "48,46": 1,
+      "48,47": 1,
+      "48,48": 1,
+      "48,49": 1,
+      "48,50": 1,
+      "48,51": 1,
+      "48,52": 1,
+      "48,53": 1,
+      "48,54": 1,
+      "48,55": 1,
+      "48,56": 1,
+      "48,57": 1,
+      "48,58": 1,
+      "48,59": 1,
+      "49,0": 1,
+      "49,1": 0,
+      "49,2": 0,
+      "49,3": 0,
+      "49,4": 0,
+      "49,5": 0,
+      "49,6": 0,
+      "49,7": 0,
+      "49,8": 0,
+      "49,9": 0,
+      "49,10": 0,
+      "49,11": 0,
+      "49,12": 0,
+      "49,13": 0,
+      "49,14": 0,
+      "49,15": 0,
+      "49,16": 0,
+      "49,17": 0,
+      "49,18": 0,
+      "49,23": 1,
+      "49,24": 1,
+      "49,25": 1,
+      "49,26": 1,
+      "49,27": 1,
+      "49,28": 1,
+      "49,29": 1,
+      "49,30": 1,
+      "49,31": 1,
+      "49,32": 1,
+      "49,33": 1,
+      "49,34": 1,
+      "49,35": 1,
+      "49,36": 1,
+      "49,37": 1,
+      "49,38": 1,
+      "49,39": 1,
+      "49,40": 1,
+      "49,41": 1,
+      "49,42": 1,
+      "49,43": 1,
+      "49,44": 1,
+      "49,45": 1,
+      "49,46": 1,
+      "49,47": 1,
+      "49,48": 1,
+      "49,49": 1,
+      "49,50": 1,
+      "49,51": 1,
+      "49,52": 1,
+      "49,53": 1,
+      "49,54": 1,
+      "49,55": 1,
+      "49,56": 1,
+      "49,57": 1,
+      "49,58": 1,
+      "49,59": 1,
+      "50,0": 1,
+      "50,1": 25,
+      "50,9": 0,
+      "50,10": 25,
+      "50,18": 0,
+      "50,23": 1,
+      "50,24": 1,
+      "50,25": 1,
+      "50,26": 1,
+      "50,27": 1,
+      "50,28": 1,
+      "50,29": 1,
+      "50,30": 1,
+      "50,31": 1,
+      "50,32": 1,
+      "50,33": 1,
+      "50,34": 1,
+      "50,35": 1,
+      "50,36": 1,
+      "50,37": 1,
+      "50,38": 1,
+      "50,39": 1,
+      "50,40": 1,
+      "50,41": 1,
+      "50,42": 1,
+      "50,43": 1,
+      "50,44": 1,
+      "50,45": 1,
+      "50,46": 1,
+      "50,47": 1,
+      "50,48": 1,
+      "50,49": 1,
+      "50,50": 1,
+      "50,51": 1,
+      "50,52": 1,
+      "50,53": 1,
+      "50,54": 1,
+      "50,55": 1,
+      "50,56": 1,
+      "50,57": 1,
+      "50,58": 1,
+      "50,59": 1,
+      "51,0": 1,
+      "51,9": 0,
+      "51,18": 0,
+      "51,23": 1,
+      "51,24": 1,
+      "51,25": 1,
+      "51,26": 1,
+      "51,27": 1,
+      "51,28": 1,
+      "51,29": 1,
+      "51,30": 1,
+      "51,31": 1,
+      "51,32": 1,
+      "51,33": 1,
+      "51,34": 1,
+      "51,35": 1,
+      "51,36": 1,
+      "51,37": 1,
+      "51,38": 1,
+      "51,39": 1,
+      "51,40": 1,
+      "51,41": 1,
+      "51,42": 1,
+      "51,43": 1,
+      "51,44": 1,
+      "51,45": 1,
+      "51,46": 1,
+      "51,47": 1,
+      "51,48": 1,
+      "51,49": 1,
+      "51,50": 1,
+      "51,51": 1,
+      "51,52": 1,
+      "51,53": 1,
+      "51,54": 1,
+      "51,55": 1,
+      "51,56": 1,
+      "51,57": 1,
+      "51,58": 1,
+      "51,59": 1,
+      "52,0": 1,
+      "52,9": 0,
+      "52,18": 0,
+      "52,23": 1,
+      "52,24": 1,
+      "52,25": 1,
+      "52,26": 1,
+      "52,27": 1,
+      "52,28": 1,
+      "52,29": 1,
+      "52,30": 1,
+      "52,31": 1,
+      "52,32": 1,
+      "52,33": 1,
+      "52,34": 1,
+      "52,35": 1,
+      "52,36": 1,
+      "52,37": 1,
+      "52,38": 1,
+      "52,39": 1,
+      "52,40": 1,
+      "52,41": 1,
+      "52,42": 1,
+      "52,43": 1,
+      "52,44": 1,
+      "52,45": 1,
+      "52,46": 1,
+      "52,47": 1,
+      "52,48": 1,
+      "52,49": 1,
+      "52,50": 1,
+      "52,51": 1,
+      "52,52": 1,
+      "52,53": 1,
+      "52,54": 1,
+      "52,55": 1,
+      "52,56": 1,
+      "52,57": 1,
+      "52,58": 1,
+      "52,59": 1,
+      "53,0": 1,
+      "53,1": 0,
+      "53,2": 0,
+      "53,3": 0,
+      "53,4": 0,
+      "53,5": 0,
+      "53,6": 0,
+      "53,7": 0,
+      "53,8": 0,
+      "53,9": 0,
+      "53,10": 0,
+      "53,11": 0,
+      "53,12": 0,
+      "53,13": 0,
+      "53,14": 0,
+      "53,15": 0,
+      "53,16": 0,
+      "53,17": 0,
+      "53,18": 0,
+      "53,19": 1,
+      "53,20": 1,
+      "53,21": 1,
+      "53,22": 1,
+      "53,23": 1,
+      "53,24": 1,
+      "53,25": 1,
+      "53,26": 1,
+      "53,27": 1,
+      "53,28": 1,
+      "53,29": 1,
+      "53,30": 1,
+      "53,31": 1,
+      "53,32": 1,
+      "53,33": 1,
+      "53,34": 1,
+      "53,35": 1,
+      "53,36": 1,
+      "53,37": 1,
+      "53,38": 1,
+      "53,39": 1,
+      "53,40": 1,
+      "53,41": 1,
+      "53,42": 1,
+      "53,43": 1,
+      "53,44": 1,
+      "53,45": 1,
+      "53,46": 1,
+      "53,47": 1,
+      "53,48": 1,
+      "53,49": 1,
+      "53,50": 1,
+      "53,51": 1,
+      "53,52": 1,
+      "53,53": 1,
+      "53,54": 1,
+      "53,55": 1,
+      "53,56": 1,
+      "53,57": 1,
+      "53,58": 1,
+      "53,59": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,7,8",
+    "1,10,7,8",
+    "1,19,23,10",
+    "1,30,23,10",
+    "9,1,7,8",
+    "9,10,7,8",
+    "17,1,7,8",
+    "17,10,7,8",
+    "25,1,7,8",
+    "25,10,7,8",
+    "33,1,12,8",
+    "33,10,12,8",
+    "33,19,3,5",
+    "33,25,3,5",
+    "46,1,3,8",
+    "46,10,3,8",
+    "50,1,3,8",
+    "50,10,3,8",
+    "27,19,5,21",
+    "48,19,1,4",
+    "47,19,1,2",
+    "47,21,1,2",
+    "26,19,1,3",
+    "26,22,1,3",
+    "26,25,1,3",
+    "26,31,1,3",
+    "26,34,1,3",
+    "26,37,1,3",
+    "43,34,1,7",
+    "25,19,1,3",
+    "25,22,1,3",
+    "25,25,1,3",
+    "25,31,1,3",
+    "25,34,1,3",
+    "25,37,1,3",
+    "46,19,1,2",
+    "46,21,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//HKPDQExeU/6G5qQ1PW6jMpZcItnEEAqrc4MwZTODDdrATDmmPdkKds1fESPGgmAvxwNsP1+D3v0hA0bKX+2xXiTT11i+Ird3Tp8rzF7FZ687vIfFUzolLpTRWNOEpU2JQr9WWo2mZ5/hX0TkvOg/KJJNs6wENoxZtYF67UKRYUqsGDOXiOUp6KDghgDN9Fu9AJpem0lfaqcKD5ldBdghf5YSvuAjDvQ4wsRlIuNuYRrPA8fmMMqNekRfWMy87gBGfobv5wVp6pGpydjsnE2u/xsk0qYSmyg7g+6LKGqDUVHea/FWvL4Za6JwQfUentWeHllAzJMGDby7jUifITwqast+Ch4tmCg3mmcNB1X3f3Nvb9I/Y6/52/OLNSCvGGDokowqMsmmaWi2o8Ojmo261iBrKebzaNtb0pvszWcaICNWqer1lW+B5EBubfumh7DCcG7VgXH9zLpT75Xn7VUTT9h2wDjyJg4j/6QoB7ohwM0a2pJos9PKhF9Vp+JoDbTgbe2CgFcV0fo1UuYEgjpXtEKfQtQb/bqE4UfBlpisjwifulkIVTsAtkJPGrpLyBymcONLWoubr1sb4LGopjgMejGJVUPb4MnJXj4+t2SHgOKUioEDW2RoHugiVLBmJiIjCFDkMs4G2xqQsbNTz24B0UCspGRWaTw7q2DFzBg/t+hY9RHTbq70afzAXRqrEt8XPic7cq2eDJCnW4Q3hGmNPnKmHk2FGs2a6SDX8j2RL7olzWjYwuG7fJ/CiSSkN16HUzysRRzXGSrb6PFkIVQjKFIPxQQxIaeRJL0VC2Z+F/p9ksNSxFSqGFDUVWwVYNUEfUk4n5GdnK8mH0Ql/NEUTbCNommdykn8uEhkXWshLCHrL0wrRwANQqYIRO5ASvup0b0YD4WqFJN5oC1oiMjs/A==|920

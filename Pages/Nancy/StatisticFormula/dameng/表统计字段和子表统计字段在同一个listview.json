@@ -1,0 +1,208 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "班级表",
+        "RowIndex": 1,
+        "ColumnIndex": 1,
+        "ColumnCount": 34,
+        "RowCount": 11,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "2,1": {
+      "BindingInfo": {
+        "TableName": "班级表",
+        "ColumnName": "ID"
+      }
+    },
+    "2,3": {
+      "BindingInfo": {
+        "TableName": "班级表",
+        "ColumnName": "StudentCount"
+      }
+    },
+    "2,9": {
+      "BindingInfo": {
+        "TableName": "班级表",
+        "ColumnName": "平均值整数"
+      }
+    },
+    "2,23": {
+      "BindingInfo": {
+        "TableName": "班级表",
+        "ColumnName": "公式字段1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,14": 1,
+      "1,15": 1,
+      "1,16": 1,
+      "1,17": 1,
+      "1,18": 1,
+      "1,19": 1,
+      "1,20": 1,
+      "1,21": 1,
+      "1,22": 1,
+      "1,23": 1,
+      "1,24": 1,
+      "1,25": 1,
+      "1,26": 1,
+      "1,27": 1,
+      "1,28": 1,
+      "1,29": 1,
+      "1,30": 1,
+      "1,31": 1,
+      "1,32": 1,
+      "1,33": 1,
+      "1,34": 2,
+      "2,1": 3,
+      "2,34": 4,
+      "3,1": 3,
+      "3,34": 4,
+      "4,1": 3,
+      "4,34": 4,
+      "5,1": 3,
+      "5,34": 4,
+      "6,1": 3,
+      "6,34": 4,
+      "7,1": 3,
+      "7,34": 4,
+      "8,1": 3,
+      "8,34": 4,
+      "9,1": 3,
+      "9,34": 4,
+      "10,1": 3,
+      "10,34": 4,
+      "11,1": 5,
+      "11,2": 6,
+      "11,3": 6,
+      "11,4": 6,
+      "11,5": 6,
+      "11,6": 6,
+      "11,7": 6,
+      "11,8": 6,
+      "11,9": 6,
+      "11,10": 6,
+      "11,11": 6,
+      "11,12": 6,
+      "11,13": 6,
+      "11,14": 6,
+      "11,15": 6,
+      "11,16": 6,
+      "11,17": 6,
+      "11,18": 6,
+      "11,19": 6,
+      "11,20": 6,
+      "11,21": 6,
+      "11,22": 6,
+      "11,23": 6,
+      "11,24": 6,
+      "11,25": 6,
+      "11,26": 6,
+      "11,27": 6,
+      "11,28": 6,
+      "11,29": 6,
+      "11,30": 6,
+      "11,31": 6,
+      "11,32": 6,
+      "11,33": 6,
+      "11,34": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "3,1,9,34",
+    "2,1,1,2",
+    "2,3,1,6",
+    "2,9,1,6",
+    "2,23,1,7",
+    "1,1,1,2",
+    "1,3,1,6",
+    "1,9,1,6",
+    "1,23,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//MUSfyDk5ZOUspZJPjm6/sdnIeQIm6l2v1sMpOM4YlAEX6POigiTDHm9uL5rXcsL5J5fFbLdPXeJ8DTX1YX9+m6QR/WMJ9v9XDQs5LDGKxbTGBsUtPCf3xyWA2H6V6CZx+3POfK4Wryg00ISJA805XAEHMzOiTOD/WQh5vElIPEaIyZMLOqeqzMpDUVMhTEJ9CIsRSKLzFeUWcMQg0MqV7YR/0u87FaDe2CAyNfwFvFWzKN7eoE6lotyrWsVKUZeftdRQOOh+MCZIKpE5LxNxjWoKDwRqywlZ0xObxbgAi0GbUpajiU+pAtcyCcWl3VSKbtj7CsqDa/Txp7ZWV5vYL0NbU7Rd6zAXrnC1lcCTNP1OeXBNfai6IFWKqzG/YrPfDAN7uQkSb9caXq5vLOFKvGO2CyNObS4AJZFKbf6T8DhRu2GCazRqiUDUgWv5Qyd0JnT1tcrOCTM4ridw0SYlZQi/SBZZQ/QU3pYCpLi+cO6gcxtXtLlZ/o3LpWx+FQpjAEWu6w9ucwBqaHk6NJjOP8YySVY7u+XN3jZVI8rmSPAJhvqE+pT4j3/pHS8OXZcngausXCTfB6QFTVsGPi3DDi9obwzrWQEF+j0FPH+KOswmJOHXcTTMrjSv6lHG6kdv2XXdHz9lhEOf03FQnEUu/wwWkR0SI7AxRNJyEDrTkZJ5lt0cRgjQnhdEQTd5P9CljTBTknC2hmy4e9HB12xG583wFw9UMdef59zKEGAu6aPEJ7Mh+xi1w08nZrbw/QNqcq2nKx/u0ooyfNYQdtX7dJSwun4XV/3G5UYp3DjXl5YF/1SMBfdnMwRWDcJGM1oXT/BN3xMVz1O0/C7v6IZJ4BC/W3P2gbqpEaIeIeKf85o2B9s9uqPZ75kPLamFOolvkdVnrDItDMDQlDcXTJ+hNg==|920

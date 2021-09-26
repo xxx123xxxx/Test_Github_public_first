@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <IntegrateWithOtherApplication>
+    <Password>jzh#nUgDhGoH</Password>
+  </IntegrateWithOtherApplication>
+  <MaxRowCount>10000000</MaxRowCount>
+  <NotAllowAnonymousAccessData>True</NotAllowAnonymousAccessData>
+  <NotAllowModifyDatabaseByJsApi>False</NotAllowModifyDatabaseByJsApi>
+  <SkipCheckErrorWhenGeneratePage>True</SkipCheckErrorWhenGeneratePage>
+  <StartDateFiscalYear>1</StartDateFiscalYear>
+  <UserServicePort>22103</UserServicePort>
+  <WebSitePort>31189</WebSitePort>
+</ApplicationSettings>

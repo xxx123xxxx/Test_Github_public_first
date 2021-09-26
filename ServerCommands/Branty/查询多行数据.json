@@ -1,0 +1,61 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser",
+          "FGC_Anonymous"
+        ]
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "多行记录",
+      "TableValue": {
+        "TableName": "test_textlength",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "test_textlength",
+              "ColumnName": "charType"
+            },
+            "ColumnName": "charType"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "CompareType": 1,
+          "ColumnBindingInfo": {
+            "TableName": "test_textlength",
+            "ColumnName": "ID"
+          },
+          "Value": "1",
+          "Id": "5a2bebc9-dc09-4dbf-9c8d-f3ed4bbb6733"
+        }
+      },
+      "ID": "40ce0ec2d28c475395e5d47476140209"
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "返回值1",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=多行记录"
+          }
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": [
+    {
+      "Name": "返回值1"
+    }
+  ],
+  "Name": "查询多行数据"
+}

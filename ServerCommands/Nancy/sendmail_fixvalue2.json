@@ -1,0 +1,40 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+      "From": "%CurrentUser%",
+      "Subject": "server side test",
+      "Content": "server side test",
+      "EnhancedRecipient": {
+        "TableName": "buildtable",
+        "TableColumn": {
+          "TableName": "buildtable",
+          "ColumnName": "文本"
+        },
+        "QueryCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "buildtable",
+            "ColumnName": "ID"
+          },
+          "Value": "2",
+          "Id": "2361f3ea-dcd5-4162-b7a3-b26964ab0ed5"
+        },
+        "IsMultiRecipient": true
+      },
+      "ID": "07a866a46e9d4676b9d073d0ba5dd955"
+    }
+  ],
+  "Name": "sendmail_fixvalue2"
+}

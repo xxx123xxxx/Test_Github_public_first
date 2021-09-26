@@ -1,0 +1,807 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 93.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "sendmail_fixvalue",
+    "1,11": "returncode",
+    "3,1": "sendmail_fixvalue1",
+    "3,11": "returnmessage",
+    "5,1": "sendmail_fixvalue2",
+    "7,1": "sendmail_fixvalue3",
+    "9,1": "sendmail_fixvalue4"
+  },
+  "Formulas": {
+    "4,22": "ODATA(\"表1?$select=文本&$filter=ID eq 2\")"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "sendmail_fixvalue",
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "=servercommand!returncode"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "=servercommand!returnmessage"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "sendmail_fixvalue",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,12": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "sendmail_fixvalue1",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "sendmail_fixvalue1",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "3,12": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "sendmail_fixvalue2",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "sendmail_fixvalue2",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,11": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "7,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "sendmail_fixvalue3",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "sendmail_fixvalue3",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,11": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "8,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "buildtable",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定要更新这行记录吗？",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "buildtable",
+                "ColumnName": "ID"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=servercommand!L6"
+              },
+              "Id": "8aee1b0b-c2f9-4a3d-84e4-6ae423fed194"
+            },
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": "bbb"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "8,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "buildtable",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定要更新这行记录吗？",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "buildtable",
+                "ColumnName": "ID"
+              },
+              "Id": "dd333665-02c3-4eb2-9103-fb4acc798ec6"
+            },
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": "bbb"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "9,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "sendmail_fixvalue4",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=servercommand!L6"
+                },
+                "ParamName": "收件人"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "sendmail_fixvalue4",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "10,11": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "buildintabletest",
+        "RowIndex": 10,
+        "ColumnIndex": 11,
+        "ColumnCount": 25,
+        "RowCount": 8,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "11,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+            "Subject": "aaa",
+            "Content": "aaa",
+            "EnhancedRecipient": {
+              "TableName": "buildtable",
+              "TableColumn": {
+                "TableName": "buildtable",
+                "ColumnName": "文本"
+              },
+              "QueryCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "buildtable",
+                  "ColumnName": "ID"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=servercommand!L6"
+                },
+                "Id": "30a31945-43da-49ea-b2ca-d05f94be82a3"
+              },
+              "IsMultiRecipient": true
+            },
+            "ID": "95d1794679024de98f88ba075f56588a"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "11,11": {
+      "BindingInfo": {
+        "TableName": "buildintabletest",
+        "ColumnName": "ID"
+      }
+    },
+    "11,12": {
+      "BindingInfo": {
+        "TableName": "buildintabletest",
+        "ColumnName": "aaa"
+      }
+    },
+    "15,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+            "Subject": "aaa",
+            "Content": "aaa",
+            "EnhancedRecipient": {
+              "TableName": "buildtable",
+              "TableColumn": {
+                "TableName": "buildtable",
+                "ColumnName": "用户1",
+                "AttachType": {
+                  "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
+                  "UserColumnAttachType": 2
+                }
+              },
+              "IsMultiRecipient": true
+            },
+            "ID": "1325364085ae485fa23501e7c9232876"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "17,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+            "Subject": "zzzzａａａ",
+            "Content": "ａａａzzzz",
+            "EnhancedRecipient": {
+              "TableName": "buildtable",
+              "TableColumn": {
+                "TableName": "buildtable",
+                "ColumnName": "用户"
+              },
+              "IsMultiRecipient": true
+            },
+            "ID": "c905e61a36cf49bfae4962ad29a7aa39"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "20,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+            "Subject": "decimal tets",
+            "Content": "decimal test\r\n",
+            "EnhancedRecipient": {
+              "TableName": "buildtable",
+              "TableColumn": {
+                "TableName": "buildtable",
+                "ColumnName": "用户"
+              },
+              "QueryCondition": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "buildtable",
+                    "ColumnName": "小数"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=servercommand!L6"
+                  },
+                  "Id": "cd316816-c12b-43a0-be7c-43f653fcc62a"
+                },
+                "Condition2": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "buildtable",
+                    "ColumnName": "整数"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=servercommand!L8"
+                  },
+                  "Id": "0b1035aa-0cd0-4e22-9319-767a1f8fe459"
+                },
+                "RelationType": 1,
+                "Id": "53d11bac-9df6-4422-8251-5c9a4fed63b7"
+              },
+              "IsMultiRecipient": true
+            },
+            "ID": "51ea484ed466408bba8fafed8bcbb1d8"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style3"
+      }
+    },
+    "20,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "22,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+            "Subject": "sd",
+            "Content": "sdcs",
+            "EnhancedRecipient": {
+              "TableName": "表1",
+              "TableColumn": {
+                "TableName": "表1",
+                "ColumnName": "文本"
+              },
+              "QueryCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "表1",
+                  "ColumnName": "文本"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ODATA(\"表1?$select=文本&$filter=ID eq 2\")"
+                },
+                "Id": "3afb327c-0804-4a93-898f-d1b620e6a6c4"
+              },
+              "IsMultiRecipient": true
+            },
+            "ID": "136a537715114c56b2c7d6e8eacc3fdd"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": -1.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontSize": -1.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontSize": -1.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontSize": -1.0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontSize": -1.0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": -1.0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body",
+        "DarkGray"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,12": 0,
+      "3,12": 1,
+      "3,13": 2,
+      "3,14": 2,
+      "3,15": 2,
+      "3,16": 2,
+      "3,17": 2,
+      "3,18": 2,
+      "3,19": 2,
+      "3,20": 2,
+      "5,11": 0,
+      "6,11": 3,
+      "7,11": 0,
+      "8,13": 2,
+      "8,14": 2,
+      "8,15": 2,
+      "8,16": 2,
+      "8,17": 2,
+      "8,18": 2,
+      "8,19": 2,
+      "8,21": 2,
+      "8,22": 2,
+      "8,23": 2,
+      "8,24": 2,
+      "8,25": 2,
+      "8,26": 2,
+      "8,27": 2,
+      "10,11": 4,
+      "10,12": 5,
+      "10,13": 5,
+      "10,14": 5,
+      "10,15": 5,
+      "10,16": 5,
+      "10,17": 5,
+      "10,18": 5,
+      "10,19": 5,
+      "10,20": 5,
+      "10,21": 5,
+      "10,22": 5,
+      "10,23": 5,
+      "10,24": 5,
+      "10,25": 5,
+      "10,26": 5,
+      "10,27": 5,
+      "10,28": 5,
+      "10,29": 5,
+      "10,30": 5,
+      "10,31": 5,
+      "10,32": 5,
+      "10,33": 5,
+      "10,34": 5,
+      "10,35": 6,
+      "11,11": 7,
+      "11,35": 8,
+      "12,11": 9,
+      "12,12": 3,
+      "12,13": 3,
+      "12,14": 3,
+      "12,15": 3,
+      "12,16": 3,
+      "12,17": 3,
+      "12,18": 3,
+      "12,19": 3,
+      "12,20": 3,
+      "12,21": 3,
+      "12,22": 3,
+      "12,23": 3,
+      "12,24": 3,
+      "12,25": 3,
+      "12,26": 3,
+      "12,27": 3,
+      "12,28": 3,
+      "12,29": 3,
+      "12,30": 3,
+      "12,31": 3,
+      "12,32": 3,
+      "12,33": 3,
+      "12,34": 3,
+      "12,35": 10,
+      "13,11": 9,
+      "13,12": 3,
+      "13,13": 3,
+      "13,14": 3,
+      "13,15": 3,
+      "13,16": 3,
+      "13,17": 3,
+      "13,18": 3,
+      "13,19": 3,
+      "13,20": 3,
+      "13,21": 3,
+      "13,22": 3,
+      "13,23": 3,
+      "13,24": 3,
+      "13,25": 3,
+      "13,26": 3,
+      "13,27": 3,
+      "13,28": 3,
+      "13,29": 3,
+      "13,30": 3,
+      "13,31": 3,
+      "13,32": 3,
+      "13,33": 3,
+      "13,34": 3,
+      "13,35": 10,
+      "14,11": 9,
+      "14,12": 3,
+      "14,13": 3,
+      "14,14": 3,
+      "14,15": 3,
+      "14,16": 3,
+      "14,17": 3,
+      "14,18": 3,
+      "14,19": 3,
+      "14,20": 3,
+      "14,21": 3,
+      "14,22": 3,
+      "14,23": 3,
+      "14,24": 3,
+      "14,25": 3,
+      "14,26": 3,
+      "14,27": 3,
+      "14,28": 3,
+      "14,29": 3,
+      "14,30": 3,
+      "14,31": 3,
+      "14,32": 3,
+      "14,33": 3,
+      "14,34": 3,
+      "14,35": 10,
+      "15,11": 9,
+      "15,12": 3,
+      "15,13": 3,
+      "15,14": 3,
+      "15,15": 3,
+      "15,16": 3,
+      "15,17": 3,
+      "15,18": 3,
+      "15,19": 3,
+      "15,20": 3,
+      "15,21": 3,
+      "15,22": 3,
+      "15,23": 3,
+      "15,24": 3,
+      "15,25": 3,
+      "15,26": 3,
+      "15,27": 3,
+      "15,28": 3,
+      "15,29": 3,
+      "15,30": 3,
+      "15,31": 3,
+      "15,32": 3,
+      "15,33": 3,
+      "15,34": 3,
+      "15,35": 10,
+      "16,11": 9,
+      "16,12": 3,
+      "16,13": 3,
+      "16,14": 3,
+      "16,15": 3,
+      "16,16": 3,
+      "16,17": 3,
+      "16,18": 3,
+      "16,19": 3,
+      "16,20": 3,
+      "16,21": 3,
+      "16,22": 3,
+      "16,23": 3,
+      "16,24": 3,
+      "16,25": 3,
+      "16,26": 3,
+      "16,27": 3,
+      "16,28": 3,
+      "16,29": 3,
+      "16,30": 3,
+      "16,31": 3,
+      "16,32": 3,
+      "16,33": 3,
+      "16,34": 3,
+      "16,35": 10,
+      "17,1": 2,
+      "17,2": 2,
+      "17,3": 2,
+      "17,4": 2,
+      "17,5": 2,
+      "17,6": 2,
+      "17,7": 2,
+      "17,11": 11,
+      "17,12": 12,
+      "17,13": 12,
+      "17,14": 12,
+      "17,15": 12,
+      "17,16": 12,
+      "17,17": 12,
+      "17,18": 12,
+      "17,19": 12,
+      "17,20": 12,
+      "17,21": 12,
+      "17,22": 12,
+      "17,23": 12,
+      "17,24": 12,
+      "17,25": 12,
+      "17,26": 12,
+      "17,27": 12,
+      "17,28": 12,
+      "17,29": 12,
+      "17,30": 12,
+      "17,31": 12,
+      "17,32": 12,
+      "17,33": 12,
+      "17,34": 12,
+      "17,35": 13
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "FontSize": 12.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,9",
+    "1,12,1,9",
+    "3,1,1,9",
+    "3,12,1,9",
+    "4,22,1,11",
+    "5,1,1,9",
+    "7,1,1,9",
+    "8,13,1,7",
+    "8,21,1,7",
+    "9,1,1,9",
+    "11,1,1,7",
+    "11,12,1,6",
+    "12,11,6,25",
+    "15,1,1,7",
+    "17,1,1,7",
+    "20,11,1,5",
+    "20,20,1,10",
+    "22,3,1,8",
+    "10,12,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "returncode",
+      "Formula": "servercommand!$M$2"
+    },
+    {
+      "Name": "returnmessage",
+      "Formula": "servercommand!$M$4"
+    }
+  ]
+}//+FQclg55rTAyGE4Noc8eTiArBU1lFd2Ml5wO+6+Uvw9f7AiP9ANpk06RNB7eWZHGe/YzgMvQDagjBWJmOv1MZONdRUNGNVHxBhH4nn9EXMZ43vo1O6unts1Z+T73gqueyffOu1+g0K/3e03ddI+xJCK+VS/eLVnsJLt4Pogp1Xr+24SwBeTvSqKuh5TYgiMScfmD9Jqi4xvHDwfeDK4NF9mTtZkFbSu9X3lwPc0jY6SWcd8WkDbDItH3/fJNI4+HQqEAAn7b0avlt5k/Vt28m5f9Cdih01iUUgNxVcKVlhXZ+QEB3W2AoIkG4ktfARBSUUUR0xx1QIoesDDapvm020g135mDZQ2AYLboUSiAImvDeqPf8T4JJDfhH2uAoEZLM7mu73bFHHiO/utIVcQ2oyvD88v5TdgdpQ35lM5oCrkflhcIHZieBhxx7PoSzvwGlH5b6H3zXBQKkUHtKJR1FyyCcSFVzMZjXvZPYBECu6WU3BdMKcSnRRSxzA/bFXTg9FWeWf112iwyKMU4qzoi0Q1Vgpnk5WVvSewusq5/XPBZFu5abrgOo+8ElJsWgmQX/DPLgqQt0EpNWkZXNN93fPCDM9I5zn8uTYOWsITZM6HCuyKIXQWAICjVpHrHUlExqnqClwUa9gx46HsRSfroWD9BrtD/+PaTuZS/AfigvvdHoBDTbgGhKqIfL2JIyKVkIUKIoz4H/EL5lvhH9WlhGnAu7bLIG/H8loT61mfkkhudgTxfxJ4mMixFoNQWuRI5oxd1lPTc9ZetaMGX+odagmW33+mB6+PZSIzDTJDBostuAF2Hnky5enXJXWTMcUVDS/QBAZAWofaAu29YGWVb1DxPWf4XK7+z4nLND2akc3H5lu9hoZka6vxTTqqVkwXCj4IWrAnANp0pS5p2C8XdQA==|920

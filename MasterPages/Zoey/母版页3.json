@@ -1,0 +1,142 @@
+{
+  "Rows": {
+    "Count": 28
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "AttachInfos": {
+    "1,6": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal1",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "1,15": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowUserDisplayName": false,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "4,0": {
+      "IsPlaceHolderCell": true
+    },
+    "25,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyIconMenuCellType, Forguncy.CustomMenu",
+        "Items": [
+          {
+            "Text": "首页",
+            "IconPath": "Navigation/165_home_3.svg",
+            "IconColorUseItemColor": true,
+            "IsDefaultItem": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "表单",
+            "IconPath": "Application/130_list_2.svg",
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "查询",
+            "IconPath": "Application/047_search_8.svg",
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "报表",
+            "IconPath": "Chart/362_column_chart_1.svg",
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "设置",
+            "IconPath": "Application/053_settings_4.svg",
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "Orientation": 0,
+        "MenuLevelsStyle": [
+          {
+            "BackColor": "#FFFFFF",
+            "ForeColor": "Background 1 -35",
+            "SelectedBackColor": "Background 1 0",
+            "SelectedForeColor": "Accent 1 0",
+            "FontSize": 11.0,
+            "Bold": true,
+            "Height": 55.0,
+            "IconHeight": 32.0,
+            "IconWidth": 32.0
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 10.666666666666666
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "25": 0,
+      "26": 0,
+      "27": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,0,21,18",
+    "1,6,3,6",
+    "25,0,3,18",
+    "1,15,2,2"
+  ],
+  "BackgroundPictures": [
+    {
+      "DisplayName": "背景图1",
+      "ForguncyPictureName": "MobileMasterBanner",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "475ed418-ecb5-44e5-9243-064b15ab14e4",
+      "Size": "360,80"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//dIP5/IwVzdC+w5LSMgCwpcpuZTUksy2Mfe8TD7iaRuTLEA38DzggET5p5zoAfBQH+Od+Gjff+ikZfFNAuWVLOjkdqfelBJ0A1lsUYd+b7/aFmi7+jVspias50IBlDVTW/vWvofUNrfhCk5isZUKs0KquFg1o1dPTBU/9V+fmv0t0nmo2LsnObWLiCfq9SCa6LshgIhLTpZ3vPIlAJg7HfFz921LC7wpffb53lL5ll6JNIWPy9sABs40cx+mIqcLbqXyuKRTgUzP1nHkD1rLlLDNHVGJMFAaeOnatxWb4zeR33hyTAp+YNrJDmQbU2UMY+1oKI6vH8nHju4OUbBBI6U+txUd4natIvJlL/FsMIG4dRwiAnHWNmCriaY5XBh3G6M7FvhFwa5fRYZKos5YSgjhVK0YMyboyt4lrCEM3rJAiqBv4F5sa/UEYHb9pXKhpIks+0aJNPOxLeRzB9xO0029AUewJSSRJeLMFYc2vJabwvDB0Cf800o7uEFPahkJ3VruR8avPEtiq0BpczBjehIz5tGnz2dn59fr8N8ETRCNDR10rAf3MSaqeH+Bw16FM9goURAogbnX4hTaupc59C7xF50K3DsCtwL0lAo5oM3wG4duLHkLyqWoJiPNs9BgVBtUGLUrxXR4ns7icyBIa42gmha3Ix8g902CpmWk+WQaZBEeH6+wGthPrg7EnKMPayNNZPyqH5SzgR7tMcOaCD5IMHTvTy8sMqVPuYhxJYooiaC6wU7pziaV7Ow3LQf0534Qa/5N9fjNcy61BzSyV1ZFHxer0ki2bqmTFy8BMQ0XF5UNGf0RY13ODrdtqn63JFbSwpjG8S3Apm4G9IYYlzhOalmcwhcwH0CyS9v1JiEOwBnE54trmnZcEShbaC4TJ2UZ6L0NriEYgCkPMjR+E5g==|920

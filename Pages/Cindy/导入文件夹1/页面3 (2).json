@@ -1,0 +1,93 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Formulas": {
+    "13,2": "AH14",
+    "16,2": "url"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "VideoPlayer.VideoPlayer, VideoPlayer",
+        "VideoInfos": [
+          {
+            "Caption": "视频",
+            "ExternalVideoPathFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面3!url"
+            },
+            "ExternalCoverPathFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面3!fengmian"
+            }
+          }
+        ]
+      }
+    },
+    "2,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "13,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "13,2": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,2,10,16",
+    "2,20,2,7",
+    "13,2,2,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//QV6TMoSa8B4+92kWEVRkAJX0VeerrYizjNuzcC7cY7r1o6Wpe95mn/ureUgQBg9gl41qUOKC4Dkg+ShkHaowUjqAHEAurbyQTSrdX+NUczAJKxetyAXMj77nqhLcIs8ArpZklfTnAWNSGsGCAjHLO8f/WTQHMKCc8QFyv7zyWpA4kZE8z4v8lNyJNdsPw++sYb9pq/BInKHONzrXS4eDHa7xIwgBv+gW7oJvgd0UDohH27CVRwyuXUn+ygMIg9B4K4VntzP59lYqjnVzOKSZkWq6bnWco7cQGfDSSEsfE/WbovxEZnUzzXSbbuzgJvCzxmeWiXExeLCsUKixAc/MHpNzx9/tOrcTnMDrlabmXxpRtqaNTqW5Xta753HjU+8pCMw9AW+BmhSYBtnoktW68gG+kmO/1h8ImpHRzoafCmhLeE2pAicY8nfp3Lix4SQMEcJlLSnHN6yfLzNvfpkzb5Cm1rcckQ4lXoWzoOPayS82pWWNu6UuQOgLl06QByeb+IUButuYSo9nLehl8m/MDS2bB3bMIa8prBT6NnXH1mt7s7+vMROVqtVy6fL4783OWwIVePkiXM15Ky7/LrGATtRrP3qvNRxME5jIQdAFisn+B4nkMj/Ldqcj8j8+qeHi6BHUmdO1VlHhb+dDkFxvkrzzQ5tp1DooxfKXCsJkRkXbxhu8165Qj3pF6Chmk7q7V13SVRSwFOypDVSDf6HwrJ4vKrIv1AiTjUzey/di/TKaQ47RwAurEqKxzo9uKbVZ3XtKOWPu7ZBXVqEK+GirBMG2I6ZnqitoP5mbd9ouwehDFRA0C/cX0spA0A/StZRoijKjw9zYPaA8ByukdCwoDBhlZhi1CIMb7A88gVuQWKVFLvUKOUSVYqVwJ67oDQBEkYTlDEMUSc93djgzb/Iq+g==|920

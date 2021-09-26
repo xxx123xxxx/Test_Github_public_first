@@ -1,0 +1,38 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser",
+          "FGC_Anonymous"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "参数1"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "ServerDesignerCommon.Command.ExecuteSqlCommand, ServerDesignerCommon",
+      "ConnStrId": "cfa509c4-7c37-4a08-94d5-2e2835d42fe0",
+      "Params": {
+        "value": {
+          "Item1": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1"
+          },
+          "Item2": 24
+        }
+      },
+      "SqlStatement": "INSERT INTO \"brantyTest\".\"TextLength_DaMeng\"(\"VARCHARType\") VALUES (:value)\r\n",
+      "TestingParameters": {},
+      "ID": "895b244ec9e649c8bb4b44adca51fda0"
+    }
+  ],
+  "Name": "执行SQL命令"
+}

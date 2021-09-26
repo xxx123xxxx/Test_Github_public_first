@@ -1,0 +1,93 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.EndServerCommandTrigger, ServerDesignerCommon",
+      "UserNameParamName": "执行人",
+      "CommandNameParamName": "命令名称",
+      "FolderNameParamName": "文件夹名",
+      "ErrorCodeParamName": "返回码",
+      "MessageParamName": "返回信息",
+      "LogParamName": "日志",
+      "StartTimeParamName": "执行开始时间",
+      "EndTimeParamName": "执行结束时间",
+      "ResultParamName": "执行结果"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "log_task",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "ConfirmText": "您确定添加这条记录?",
+      "UpdateValues": [
+        {
+          "ColumnName": "执行结果",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=执行结果"
+          }
+        },
+        {
+          "ColumnName": "执行开始时间",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=执行开始时间"
+          }
+        },
+        {
+          "ColumnName": "执行结束时间",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=执行结束时间"
+          }
+        },
+        {
+          "ColumnName": "命令名称",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=命令名称"
+          }
+        },
+        {
+          "ColumnName": "文件夹名",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=文件夹名"
+          }
+        },
+        {
+          "ColumnName": "返回码",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=返回码"
+          }
+        },
+        {
+          "ColumnName": "返回信息",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=返回信息"
+          }
+        },
+        {
+          "ColumnName": "日志",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=日志"
+          }
+        },
+        {
+          "ColumnName": "执行人",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=执行人"
+          }
+        }
+      ],
+      "ParamNameToSaveNewRowValue": "newItem"
+    }
+  ],
+  "Name": "服务端命令执行后执行"
+}

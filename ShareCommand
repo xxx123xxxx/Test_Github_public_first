@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
+    <Commands>
+      <Item class="Forguncy.Model.SendMailCommand" assembly="ServerDesignerCommon">
+        <Content type="System.String">
+          <Value>ffghfg</Value>
+        </Content>
+        <EnhancedRecipient>
+          <IsMultiRecipient>True</IsMultiRecipient>
+          <TableColumn>
+            <ColumnName>文本</ColumnName>
+            <TableName>buildtable</TableName>
+          </TableColumn>
+          <TableName>buildtable</TableName>
+        </EnhancedRecipient>
+        <ID>f16e7f16d76c4786afa8947f3dd5037a</ID>
+        <Subject type="System.String">
+          <Value>fgf</Value>
+        </Subject>
+      </Item>
+    </Commands>
+    <ID>a5625b1e-8028-42ee-8999-e557ec29a819</ID>
+    <Name>模板命令1</Name>
+  </Item>
+</ShareCommand>

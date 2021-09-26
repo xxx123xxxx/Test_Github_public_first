@@ -1,0 +1,42 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser",
+          "FGC_Anonymous"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "参数1"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.CallStoredProcedureCommand, ServerDesignerCommon",
+      "ConnectionStringID": "cfa509c4-7c37-4a08-94d5-2e2835d42fe0",
+      "Name": "add_TextLength",
+      "AllowAcessRoleList": [
+        "FGC_LoginUser"
+      ],
+      "Parmeters": [
+        {
+          "Name": "PARAM_1",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1"
+          },
+          "DataType": "VarChar"
+        }
+      ],
+      "Schema": "brantyTest",
+      "ID": "3811b8a68a964c20b4bcaec244dd72b9"
+    }
+  ],
+  "Name": "调用存储过程"
+}

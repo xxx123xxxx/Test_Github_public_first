@@ -1,0 +1,45 @@
+{
+  "Rows": {
+    "Count": 28
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "0,0": "手机 (3)"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
+        "PageName": "手机 (3)"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "0,0,28,18"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//fj/o8/uaFv/kRwRbvdwhOp4jIergL4RyQLzro5YuPSKRqbE3W/fStSwsdvDY5BoxPq2YCAKffFY2qVFbO55rY9lr7qBjCxVyMVhqevSGatLg8QFuK9B491898EGH98NFS6S5ljD6ZNpQa2obSUa2bRW5T44qudaPWUIl64jTBOM5Dw/F384nJ47L6zOIaF6nK5PCnjMEUCONxXggi4xQhvYYuJboP3ph4x8GDcpMM02OuW5d+HlmlAdRwNQBL0775pmsxz+88PhkPmGi6uYyExkaVgdaLWUEc97Hn69W5N9oqg2gFXfh1RbIaJICrEtboO+COBz9AKJRyfQp0C55XZdmQVaEHzg4+svyo8WZrbhyhZeaRDUSq/LgbqHdLCBeo9tpt2nC2o9p+xHg/E+MK0yspHudKPinxNkcENWjAKI9k7RKzhHD8ql7F6oalh03bmpLa4bF5sJheXhysxlHnkFrePlcLA6/gU3h1vcWdn10o13Clyq+SJh3pn4alQXxwaf4dN9Ru6FrDkq08iRqTdUNS7EBAVk8ruBLOt1uqWkaahz0nWKNLw2kJeKygtY1nfMV7IsLT5MEDnYMjkCMncslahGHXJ/0ENpIYsuJBIJzKB7LbAuxEG9NJSf+lts+ZqxQ3vGPStIBE0PgeZECdCO3btNh6FxHGGqPkBO1BoFUq82ZXTxTODPDIg6WHy4xOZMs09x8mI99OA1otsBuZ2ZxqQX+i1UA3kpQWTeFaUI1yAZvHH3fGq97wzP3sMfv3H8/Whk/+P/gqBlCCD9e1XUvl5KwgZy169qHhb2/i4e6VknMHd2ud0CGq+tQwzQYkkR+dsGvFw2WR25p6bi5r9ZvPLUqSj+wBJeGf8nztZImgU+8PnF5m1AIUS2asH7U+teRnIeza0qlIpAPy7Qclw==|920
