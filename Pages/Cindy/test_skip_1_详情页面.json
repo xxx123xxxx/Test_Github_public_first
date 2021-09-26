@@ -45,6 +45,7 @@
   "Values": {
     "3,6": "ID:",
     "5,6": "文本:",
+    "5,14": "项目2",
     "7,6": "整数:",
     "9,6": "小数:",
     "11,6": "日期:",
@@ -68,11 +69,17 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "项目2"
       },
       "BindingInfo": {
         "TableName": "test_skip_1",
         "ColumnName": "文本"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "FirstParamValue": "5",
+        "SecondParamValue": "9"
       }
     },
     "7,14": {
@@ -149,18 +156,20 @@
                     ]
                   },
                   "value": "添加",
-                  "Id": "361106cf-1676-432e-a0d4-9bf3112337a1"
+                  "Id": "e5959019-f5f9-402b-9ebf-6ee5229b0aef"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "test_skip_1",
                     "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "CheckDataValidation": false,
                     "ConfirmText": "您确定添加这条记录?",
                     "UpdateValues": []
                   }
                 ],
-                "ID": "6500431a-4ecf-4f1b-b428-25f49f09e1f9"
+                "ID": "6c24ed98-9663-4695-a5be-4c60a04903ae"
               },
               {
                 "Condition": {
@@ -174,17 +183,19 @@
                     ]
                   },
                   "value": "更改",
-                  "Id": "dd7bde18-9ba4-4166-bbdc-fa280d61b3ad"
+                  "Id": "c7c1d567-e987-4930-adc7-f7403909c5dc"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "test_skip_1",
+                    "ShowConfirm": false,
+                    "CheckDataValidation": false,
                     "ConfirmText": "您确定要更新这行记录吗？",
                     "UpdateValues": []
                   }
                 ],
-                "ID": "8f6abafb-ecd2-43de-b1fe-e620b62474c6"
+                "ID": "42b7fecb-b153-4475-aad8-fd509c9fc3bd"
               }
             ]
           },
@@ -244,14 +255,14 @@
   },
   "Spans": [
     "3,14,1,6",
-    "5,14,1,6",
     "7,14,1,6",
     "9,14,1,6",
     "11,14,1,6",
     "13,14,1,6",
     "15,14,1,6",
     "17,10,1,4",
-    "17,16,1,4"
+    "17,16,1,4",
+    "5,14,1,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -266,4 +277,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//ahwuqjiBa1kVfcd7xs1qpW40ddEVnLJqVabHuaLLt/xEgl7TrBaN86Rm7n+bwcb72WjFETCbalt+dMog4kAiNSBAwlvD9yv2ipvPpcGaPdadEVY/cBsOVoYFyDa63kbFZFxGc9X1dBiBhwY69AuTkEGRpK1ONnhrfMZmmLON8Q4mzIjjH6TSSvAMkpm/OzIWMeXkCzHNGqETVbRwlqfMLnBlob0NQoPl8FgfW7whN2udGJc0koPopugzc7KGc+OPfAWER9ydFxV/7RtfLn0yWUAKnHLaJmxYBxrAjIV+n9AwtTGK11RLR08fCStPouWIL6GqutZyNBJ1H2O3SKPDcLRHoq+7bLsptIBzstSpelPHhEJ9pkIPq8MrUT7skv2tkieOfnHIPhjnqns2COfziUvUydNspR28FS0VVYJB0QM+WTgNByyG0IdZXHJ9GO62g7DXLXy4rfT6dk4ex5pBfBzXIyxg4MZob0edxQ0DqBo59iyckApBWLrZUnVIU45G3HyFSmXekc0LKU19Klhci8rzjPbDgRFiK481ozmXsY9Jd1OHsRH90Nl/SXHeIlMByRNT9I2lLzytFn0ICzQ8lWceEuUR1nnsWwUvqFPePDngEtLvjHx6vysA+t8RH9DNx9QUfKKZNiYwWvH+TjA0sTgMysZPhVThTVDKVF+/+l4Ytc5WmDao/AfdFDXQiry9vODDkZlhlsOQCLht1M6qDroniFyXBFQY0kQq2esKJ8e3WifF+dNq9HXHwX0nbdq+MR7lk7HDkjBz+QeWvBVsP4j76S82FAj/SBzwKSAMEiHMAvPHY62XGxIc8SPwvx7D2xlCBCOLGB/MPheXVZB2d2wamGl528qOa1jNf2N1ypDp41iRTaJinT0LapaVhUba8lLoWyWt1W4KnH+j642SMA==|920
+}//muktTBHQdJ/89q6Q8egS6z5N5lkEW3C7CrkX/uaATAjjWn1m4DFMrdu2aiyvgKSkVaMaTw4iahWk/ZteK5zTeYPr1IPrT+5eI2CV3j/QQTO6ffqrqyokyY8IEtTOW2WbCmRoRptgc3GXLHdU9MrVK9cDPcLtdEWKqj8n5XuR430Ep+tmiDYwVWO2MpSIU6YwmH4v2xU1RrjLbb1j3s3afsyeQJEpqkz/zW1O9za8t78saE5kHM8dp3PMC1dV3bmTam1FLCE9EfAyDW8XGd+Owyg2VYjpWqnYs1ddhTz4Q0/S1Zy4KFhCeYV6qQQVdVhRc8XDc2L86YK4DLqnRF6d5/3H7Ck2WoKEiPLcg9ZV5g8O9jy4RKeTxkOaMBrMzKckuLtGmQqbOsp/VO9asd7JQJIjVWU2ZClcJ2a+XXUH5Bm1+3I7+d+rYIyQb0kGc9Zh5RLxnlzydQqcguTS7SytdvcaUCLT7iPQTZxuUObO783Hqcb44YFGuyUtbyUyrYXzIQzg5RUyTroLiPjMlaZosHefY6N0XkK9QaI7QxGy9I0JE5CkC3+Ivl7BX8mF0dTF/83cNLSqiOU6eI63r0AGDT1vCDWllS0uXT22+GIPg0Mtl17RQZt7OtXHfWtraAEVYZU3bYzXf4jbk+rgSYDOiWTQhbB/iZIIwMrjzMaephKT/8XoKslcDZ6ux9jbniEqxt96SdG6yqLuw0u3a2QYiTWfnZ9aq/dkqbtrtfT9QkkRCdzuWQQNxZJ3DVk+naoB97EsGvYtVIHr0gs/8YYOdWOg2ihwXgE1uxmWY+SZiI+FDvAuR2IfbglQpXV4gK8DwqXbVQNuhtD2E66FtsjlfYjvb5Mvmb786Syvd4hFKtzxgNg+odUmFtYoR6J5ECaJP5jspgoJ0LcoDwRzfMZQyQ==|920

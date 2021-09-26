@@ -1,2 +1,128 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ShareCommand />
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
+    <Commands>
+      <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
+        <ConfirmText>您确定添加这条记录?</ConfirmText>
+        <ShowConfirm>False</ShowConfirm>
+        <TableName>test_skip_1</TableName>
+        <UpdateType>add</UpdateType>
+        <UpdateValues>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>文本</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=文本</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>整数</ColumnName>
+            <Value type="System.String">
+              <Value>11111</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>小数</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=小数</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>日期</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=日期</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>时间</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=时间</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>是_否</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=是_否</SerializeProperty>
+            </Value>
+          </Item>
+        </UpdateValues>
+      </Item>
+      <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
+        <CheckDataValidation>False</CheckDataValidation>
+        <ConfirmText>您确定添加这条记录?</ConfirmText>
+        <ShowConfirm>False</ShowConfirm>
+        <TableName>test_skip_1</TableName>
+        <UpdateType>add</UpdateType>
+        <UpdateValues>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>文本</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=文本</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>整数</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=整数</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>小数</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=小数</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>日期</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=日期</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>时间</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=时间</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+            <ColumnName>是_否</ColumnName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=是_否</SerializeProperty>
+            </Value>
+          </Item>
+        </UpdateValues>
+      </Item>
+    </Commands>
+    <ID>7e011b04-4d5c-447d-931e-1ec1934f3d18</ID>
+    <Name>添加</Name>
+    <Params>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>1a4fdeda-f955-458d-8b49-ef4c2ba44f67</ID>
+        <Name>ID</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>72cfbebd-1ca4-4144-b5f8-1a8989b2c401</ID>
+        <Name>文本</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>d8078396-c736-4e34-8e14-8cb8222dfb8a</ID>
+        <Name>整数</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>857ad05e-a03e-455e-a71f-f26ebf04010f</ID>
+        <Name>小数</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>53e56d49-98d5-4b5f-a1ae-8902d42ef15a</ID>
+        <Name>日期</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>9b951c0d-8953-48af-83d9-5682584e9a12</ID>
+        <Name>时间</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>d4ad8aed-1edd-4ab3-a613-6c4c7aed200d</ID>
+        <Name>是_否</Name>
+      </Item>
+    </Params>
+  </Item>
+</ShareCommand>

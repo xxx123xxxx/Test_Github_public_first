@@ -34,6 +34,7 @@
   },
   "Values": {
     "3,19": "test_skip_1 列表",
+    "5,39": 6,
     "7,6": "添加记录",
     "8,34": "更新",
     "9,26": "更改",
@@ -143,12 +144,7 @@
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
-      "DataValidationInfo": {
-        "NumberType": 6,
-        "CompareParamType": 4,
-        "IgnoreBlank": false,
-        "FirstParamValue": "2"
-      }
+      "DataValidationInfo": {}
     },
     "9,8": {
       "BindingInfo": {
@@ -245,6 +241,34 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=test_skip_1_列表页面!AP11"
                 }
+              },
+              {
+                "ColumnName": "日期",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=NOW()"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "ShowConfirm": true,
+            "ConfirmText": "您确定要更新这行记录吗？",
+            "RowsToUpdate": 2,
+            "RowsToUpdateListViewName": "表格1",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=test_skip_1_列表页面!AP11"
+                }
+              },
+              {
+                "ColumnName": "整数",
+                "Value": "3333"
               }
             ]
           }
@@ -271,8 +295,100 @@
           }
         ]
       },
+      "DataValidationInfo": {}
+    },
+    "13,41": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "NumberType": 1,
+        "IgnoreBlank": false,
+        "FirstParamValue": "5",
+        "SecondParamValue": "9"
+      }
+    },
+    "14,34": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+            },
+            "Params": [
+              {
+                "ParamReferObject": {
+                  "ParamID": "1a4fdeda-f955-458d-8b49-ef4c2ba44f67",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "72cfbebd-1ca4-4144-b5f8-1a8989b2c401",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=test_skip_1_列表页面!AP14"
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "d8078396-c736-4e34-8e14-8cb8222dfb8a",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "857ad05e-a03e-455e-a71f-f26ebf04010f",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "53e56d49-98d5-4b5f-a1ae-8902d42ef15a",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "9b951c0d-8953-48af-83d9-5682584e9a12",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "d4ad8aed-1edd-4ab3-a613-6c4c7aed200d",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              }
+            ],
+            "ReturnPropertiesTo": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -439,6 +555,7 @@
       "12,31": 14,
       "13,6": 13,
       "13,31": 14,
+      "13,41": 2,
       "14,6": 13,
       "14,31": 14,
       "15,6": 13,
@@ -505,7 +622,9 @@
     "8,20,1,3",
     "8,23,1,3",
     "8,26,1,3",
-    "8,29,1,3"
+    "8,29,1,3",
+    "13,41,2,6",
+    "14,34,2,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -519,4 +638,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//YCZshW4uWZK5Mtyj05+xsjPSrPZSD3cfcivSM15GXDRhEUySItDRXi397S2z4mxbUAhclnE7826UH5KWeAOdOd2HmQfe6luE+oGZU28Ohgdomq4bgcxx2qG9blvb4Sx3cHbyqdZZmoLVQkQ6a/J5Mdw0evqGNQDOWItVLFdCU7go9+iL4IZW4Jnui7To+CP0j0/PckiGAbCylgecKFaXjDidgS5RyV5aAQk0W1wVclf4oqLTJp2u62xMHWQL895Kte+4cp5LjxSF3ATwvH3zCLzeLEb0xEk4kLa4wPG4aQPVSG1GD2sffs8n1jJX8p2gTVTRpd7pNxUSKLboTzUnY8Vlb1CS6GV6V9q8pr9DIXMA0MpOHKvAclU4GIiw71Y8jEtXj75NTrQrY+qJZeQ6t/bhTlLXGW+FG7kbyEVMlED0AOXFcqwGV8XJH+usPl09w8ubuh20NSEX1Z5up5Z1LoSL5lkhJOvXP4I6EUbtMvGwMozmImzgZFxPJJfR4HZq/yzvLjTcOGRdOzFu5/iRzESFipqZqdXVzrnqGysh7I7sIK/wM0k8bZWjs7A4JJarZ25HddE8uULKuIWtRuvrgNo5gwaS03UwrE54yzhK0uH4X9kTaVA2OM6JXFEY4mwW0q4u8sKIXBgsvU7TDpuOFbjGDxQ76Id/LQ8Q4/Cj0qnFAfBpWLdvzal79DV9Zo/ldi+pdPNXze03uJJHhPVDsi4W37v+k4gRJmM72d4yHeznTaZ222Op30aqub/LBmjuAg9ksUbnOndiV5UEaJDwX4ZhmLuh7aigyFWwETcxeoDkZsj4qDqJcoROCu0a92KGvRd7WgHu2cQiPJqYjfz4ipe73QnGfZTJTXptElxrIvxs2Z6ppYN34RVNEBNHOz575aTByYchrGCNexXVVyG9OQ==|920
+}//NsyVl4KjdIwxdeuWIFO7uMHQ7JhQ7uzCkKVA93ZSykqAC1z0ouCQ4avteI40w9lMXF7b3zDtkFx+a7w9Io/ks2JTr0E7MiFc796FQ+TZPRniQ5tS3z4olqcvitZv0BuYD12f6O+bKyEG0StChl329tHEXdh2WuJpjvp0kcBOpV+roV2zVu6hX0kV+aUpzKJuH6Q/OQTqCxWo0nWIIl1cJq7r8d49YUB39cg2Zb/bcUyy51h1Gd2R1R7P7WZgJxbYg2X2L0sSs1gum94USTQR7TLInlCAL6PtK2ilTymyMxRMpP/QJ/8fPee4Hpo26NZMP5gkgX3YnZZeoyWXYnNbfe/G6OujUfnJOJp7lxTE6wzZXLXEimGdBv8OVlSCvkIULwXSy1L9i+nV5MnXUBHdx3PyJ90+zC7egCzwYUf4j+CMdnawhGLVrPdJGFCSm0qCbvUY+9Nx67S+KC2oVkL+WXbIukLcoSHNXHlu7PkkmxL6YU2O0zr58ftaR49JVe41jE9BQycjmH+tUjpIdzCCxwwm8b3nL0yUYfYOQNuirl1TstjtQs4ncjzVhTbVaae4IoLgPNOiTnZG7RYddcuIfUVcYG7WP7iki7I4AsEdzwoc++e5GtPys+tRA6SCtUdcdTncOoWH70DeD9g0YYNFYnqltYv8TH835ZBOV392G0lKtA/IcQouwdTedGmjyxa8XQ/xhXt3eGSoLh2JIXR88+c265WOqmESlzciRSQY4bmGQytEIwNTQm44q5pRWALY/4nXRA491ZO2aaIsipkIPcS/H8jqa5NYNxk97QqPUxFH6FCNpOGo4JDwQJDLbF1AfQGQzu62rDzAywlfeJ1Dc3s1EsFvTKttGGWQRKas4f+JimQcGS4e5gHv/isnapr5xf3accbS2qs94Ut3+MSH/Q==|920
