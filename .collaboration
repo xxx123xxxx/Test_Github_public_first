@@ -171,16 +171,25 @@
   },
   {
     "ModuleName": "PCPage/test_skip_1_详情页面",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/test_skip_1_列表页面",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-09-26T14:50:11.8779241+08:00",
+    "LockDateTime": "2021-09-26T15:30:00.1084029+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Cindy\\test_skip_1_详情页面.json"
+    ]
+  },
+  {
+    "ModuleName": "PCPage/test_skip_1_列表页面",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-09-26T15:30:00.1084029+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\Cindy\\test_skip_1_列表页面.json"
@@ -225,55 +234,5 @@
     },
     "LockDateTime": "2021-09-26T14:49:50.1898158+08:00",
     "ModuleType": 7
-  },
-  {
-    "ModuleName": "PCPage/test_skip_2_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T14:54:10.1072309+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/test_skip_2_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T14:54:10.1072309+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/容器",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T15:14:35.3199084+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/容器_子页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T15:15:01.8354089+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/表信息",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T15:17:17.5896028+08:00",
-    "ModuleType": 1
   }
 ]
