@@ -241,5 +241,15 @@
     },
     "LockDateTime": "2021-09-26T16:50:01.2598329+08:00",
     "ModuleType": 17
+  },
+  {
+    "ModuleName": "RdlReport/_",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-26T16:50:12.0116486+08:00",
+    "ModuleType": 18
   }
 ]
