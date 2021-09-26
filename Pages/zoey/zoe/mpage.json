@@ -1,0 +1,215 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "17,48": "FGC_登录_手机版"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
+          {
+            "Text": "菜单2",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单2_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单2_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "菜单3",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单3_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单3_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "zoey",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "详情页面",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "详情页面",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "页面1",
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "页面1",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 17.33,
+            "Bold": true,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 16.0,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 16.0,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "1,17": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
+        "PageName": "testpage1_3"
+      }
+    },
+    "1,41": {
+      "CellType": {
+        "$type": "TabManager.TabCellType, TabManager"
+      }
+    },
+    "16,17": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "Tabs": [
+          "列表页面",
+          "page",
+          "页面"
+        ]
+      }
+    },
+    "17,48": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_登录_手机版",
+            "PassValues": []
+          }
+        ],
+        "Text": "FGC_登录_手机版",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#337AB7",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "16,17": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,1,30,15",
+    "1,41,14,19",
+    "1,17,14,23",
+    "16,17,13,23",
+    "17,48,4,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//R2H+XwtpkK0rSvgypbzo7/VMyGupeBuFfrrwKFymgcd0xx9nRq90WIHdthscN7VuhUZfE/b0ebyKAxRZZcfLv8Qokl/yWVzhbTloteyMzxKWOpUTa68njts37cWoaXOA0Us0n8DCqpcaHAmRa8Lo8exeir2DpGXOpJN68VxgfBh81Vw8nbMuFI/+k5KQ1eaV6Sz0rnkpDSF1MLDWEMpr4CNnoP1KVBaIyjzWUcjX/dud/poKQfq30lKrQLLKN1AJ05CZ/VLa6dAMnnXl5rymFLng1/XooPiaeV2I5jwI57vDuvOFMk2VGCuuQlnn1lsgj0SSp/kIbKKQA9KIOGDLgpYB3QwK+BMqrca9oemBZCkH71NDuDi8Qa6H+S2N5htlfa5l4t4jVol2mg1NVa+Eitd/BGf1Yf/wbfRsnhdXQgqNyte5cUQEWW+9f78Qv+Egd7yCXGdwon88MTnW0I90jdBw4TUMw1kbqwqVbrLZz1ksSIJATSTnrEAYKQ4cPLTwQ7DR1KVMbDdMoG3abzj0PeM58AiNBNaVCopz6Mg+kbbSuyxoDvKVhsbkFH72K33DKu241XYqkHBGRify86nxPotJ3VDpFx03Gg3lhvKpVDkAshA4KPUMvHn5McCXSn5n8JcQRfqDGtT++Ap9dNjWkjadb+zHunCi1tVNoOg3Dv+5mLPRRjcoaVe3aZWHQlBLJvJqoPkBdJTQqCgvdQ+la1QcUm55bo/j3F7ExPkz4MZQDDzKoCLJfo2BzZT6VZVlfamuCgi47EoCgzLQrHZnRrzV7GPcLVDWx/qwth7xy67QjqRW8ke9zYydUxbX4/mYCYNP5ZAHJD3yDMM2FJi4z5H5GS0G0l9Qauoy86m9Aqp744INHDpNEAff2dAE0MoCjcQyulihQdMUEn++XylpuA==|920

@@ -30,15 +30,39 @@
     "Count": 45
   },
   "Cols": {
+    "InLogicalVisibleIndexes": [
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
     "Count": 60
   },
   "Values": {
     "3,19": "test_skip_1 列表",
+    "4,56": "testpage1_2",
     "7,6": "添加记录",
     "9,26": "更改",
-    "9,29": "删除"
+    "9,29": "删除",
+    "9,32": "1111",
+    "9,38": "111"
   },
   "AttachInfos": {
+    "4,56": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "testpage1_2",
+            "PassValues": []
+          }
+        ],
+        "Text": "testpage1_2",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
     "5,25": {
       "CellType": {
         "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
@@ -75,7 +99,7 @@
         "TableName": "test_skip_1",
         "RowIndex": 8,
         "ColumnIndex": 6,
-        "ColumnCount": 26,
+        "ColumnCount": 38,
         "RowCount": 12,
         "IsRowHeaderVisible": true,
         "ColumnOperation": 2,
@@ -156,6 +180,45 @@
         ],
         "Text": "删除"
       }
+    },
+    "9,32": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "1111",
+            "PassValues": []
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "1111",
+            "PassValues": []
+          }
+        ],
+        "Text": "1111",
+        "ClickMode": 1
+      }
+    },
+    "9,38": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+            "SessionGuid": "059379a9-4939-4ffa-a4c0-3bbc3f0863d5",
+            "OpenReportName": "111"
+          }
+        ],
+        "Text": "111",
+        "ClickMode": 1
+      }
+    },
+    "9,51": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
     }
   },
   "StyleDatas": {
@@ -204,8 +267,7 @@
       },
       {
         "BorderBottom": 1,
-        "BorderLeft": 1,
-        "BorderRight": 0
+        "BorderLeft": 1
       },
       {
         "BorderLeft": 0
@@ -272,7 +334,19 @@
       "8,28": 4,
       "8,29": 4,
       "8,30": 4,
-      "8,31": 5,
+      "8,31": 4,
+      "8,32": 4,
+      "8,33": 4,
+      "8,34": 4,
+      "8,35": 4,
+      "8,36": 4,
+      "8,37": 4,
+      "8,38": 4,
+      "8,39": 4,
+      "8,40": 4,
+      "8,41": 4,
+      "8,42": 4,
+      "8,43": 5,
       "9,6": 6,
       "9,7": 7,
       "9,8": 7,
@@ -299,24 +373,44 @@
       "9,29": 8,
       "9,30": 7,
       "9,31": 9,
+      "9,32": 2,
+      "9,38": 2,
       "10,6": 10,
       "10,31": 11,
+      "10,37": 11,
+      "10,43": 11,
       "11,6": 10,
       "11,31": 11,
+      "11,37": 11,
+      "11,43": 11,
       "12,6": 10,
       "12,31": 11,
+      "12,37": 11,
+      "12,43": 11,
       "13,6": 10,
       "13,31": 11,
+      "13,37": 11,
+      "13,43": 11,
       "14,6": 10,
       "14,31": 11,
+      "14,37": 11,
+      "14,43": 11,
       "15,6": 10,
       "15,31": 11,
+      "15,37": 11,
+      "15,43": 11,
       "16,6": 10,
       "16,31": 11,
+      "16,37": 11,
+      "16,43": 11,
       "17,6": 10,
       "17,31": 11,
+      "17,37": 11,
+      "17,43": 11,
       "18,6": 10,
       "18,31": 11,
+      "18,37": 11,
+      "18,43": 11,
       "19,6": 12,
       "19,7": 13,
       "19,8": 13,
@@ -342,7 +436,19 @@
       "19,28": 13,
       "19,29": 13,
       "19,30": 13,
-      "19,31": 14
+      "19,31": 14,
+      "19,32": 13,
+      "19,33": 13,
+      "19,34": 13,
+      "19,35": 13,
+      "19,36": 13,
+      "19,37": 14,
+      "19,38": 13,
+      "19,39": 13,
+      "19,40": 13,
+      "19,41": 13,
+      "19,42": 13,
+      "19,43": 14
     },
     "SheetStyle": {
       "FontFamily": 5
@@ -350,25 +456,31 @@
   },
   "Spans": [
     "5,25,1,7",
-    "10,6,10,26",
     "9,6,1,2",
-    "8,6,1,2",
     "9,8,1,3",
-    "8,8,1,3",
     "9,11,1,3",
-    "8,11,1,3",
     "9,14,1,3",
-    "8,14,1,3",
     "9,17,1,3",
-    "8,17,1,3",
     "9,20,1,3",
-    "8,20,1,3",
     "9,23,1,3",
-    "8,23,1,3",
     "9,26,1,3",
-    "8,26,1,3",
     "9,29,1,3",
-    "8,29,1,3"
+    "10,6,10,38",
+    "8,6,1,2",
+    "8,8,1,3",
+    "8,11,1,3",
+    "8,14,1,3",
+    "8,17,1,3",
+    "8,20,1,3",
+    "8,23,1,3",
+    "8,26,1,3",
+    "8,29,1,3",
+    "9,32,1,6",
+    "8,32,1,6",
+    "9,38,1,6",
+    "8,38,1,6",
+    "4,56,3,3",
+    "9,51,6,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -382,4 +494,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//1lEUXBYaYzor6/Kb8bIvrzZKWpg4Gyu79lQITNBd2eMQmY9i15MH0sc/cHCcEgoYdDqf0DZD+JAxm1jTD/6L4nUU2no0P6jJx+LS9235XEF+pEQvi9hcMFgR9h/oGqTyjUgCJK3hIgRXY85SzYQ27rbXx+57gTZxl2dduA1uIb6FbNrccwClbdUifmrT23R2HyV6WR2GE80NKVjiVOny1KnFMSy+wPPEASLe0JdxSR/B4nbZra8+fqdW4G0gwJoayh4d2dt+SmGrPqEWSx3/37dpNvSol/z3MTPaErhteu6yZkq4eTI1eMMwB1WZQG48HrnH5Td16F/OhF7xC6UqDN88HSx/T59R2IzFg82+w5vRXYANGBBPxK90N8KHqy8PPPXHW0r7beyX5i3l+v+37sK4dJ5OEviMNqI+rJ4Ti6B7jWoH03mDUftM41YHLNAdZnQ2ZQNEIDYJifT3eMafzBi+VBIs8nW37xTQ17q7ggUr5DMbeIPEYQwc6mQyqVZNp7208QXWYuh8xx6GMRNRytzo/dA429RI1dnohIYwgrmZKbzdIBd3kj18SkMFxmAiqoQ9l/wbgXhYtYjRyPkIe3y7Q6hvTJnO5LEsA5iwOoviAUwfQPhCoJposlNhzhLRe+ea832qTA6cJDwrApGzoaUTva3rGldu4LMUizmCB98597rokjQSK47Ugal5xEz86A42rJWFenvFnhR0hX3i1XzA/neV8Iqz2Xoq1yu+qecpXy1uYD1aKkdW9+QTvkiQq5yF71hY5BLoQzO8yCJxvwEwr3T8JVjlMJzwoSKWTdm2xwPCVfwL6cWdAoyZrFEdgDl+XvOs+WZKLkzsJreuxfK/DZeV2mQctL6tVHkIzh8RjYpReU7Hnp+eM/6fG20SHoITGNVr3eYpQ6pY57ogSQ==|920
+}//TqMIIsYkB8nNckd9L4HhNndohIrEiwuE2gre8q7i7mOcaR5igCuu3HJP0oeDUiWLQhufqjGBhrR913PBdSPkyqofFVMago18OfqjOJWVVL9ZZijzkMSGB7SgXlFru6/gbb0P6BZNTM3m40KJ8DjTEIYeURdWTqIGLgaIUaMPIczAuykFdgfeJLPYpQuh7Ey4fNQMtxd8uVueyWUMPoPzxGXxZ5oOVaV18qUrsaAZmMvCOItxmPmDZfWq5esQfY6YR17INon8UxY49mR26ZAMmHNZlqfn5t5LMYaiiOl4SDqaC+UkNrljvAwc0/3GgYeg1R5qhTzwV98IGN5/4vZZ2qMNqprZesnLX37xyi1BnPQmpX0LEH9qqlosmQpYmzh3RiWfmf7nY5gshyR+pXITzDY3E4ZngnGiO9iwjIUJhRpUHOJxlIB6kJyPbkFE6kakp9HU+qmFa6JodEBO9SSUSTZ1PyCX0bevttGZWOUUeohIGPMe6Z/hJpfc/gNB9QUkzACEBitHJCa0vRRAKWFHOqCAd+pXKG1lIr76OvWuui+b1GkYM48jb39ZCS6wO95QlVk1Nq8jAe8pX+zGaA4503yV6NCCpncHnD5RDXgns3nrllh/p+i6konmXxhL4vMpCa/ppmpLyjsiOfJL3QX9B6J4BY9Rbd2A45oadCYCknjfU5UayOAbdUsADsFansh1BPsrLkwdBsEv//I8YHmcQbo+5+Qdyuq/vEFwmV7v8zJGRFBQjW9e4YPK+pof5AJJ2ujK5X/LV53lAnJlkKYtB4nxEJ+iSFOkPFplxRrzSYD/kgbfcUpjT2+wkUiFh4+4h0T3IoyUJ/i3+0w7BJcf3UWk6FECA3PyQOZGbYSTIBbVe7zF/p6EEkBQST6lC6l/iJl5mx3TB7kTWWOJfXWlHQ==|920
