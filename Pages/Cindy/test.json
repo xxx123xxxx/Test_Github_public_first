@@ -1,0 +1,106 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 177.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "AttachInfos": {
+    "3,5": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "4,5": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "5,5": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,5": 0,
+      "4,5": 0,
+      "5,5": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=test!F4,test!F5,test!F6"
+            },
+            "Value": "1"
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//lziUbhBhG1B5myrqGPiFEvAMa4jSaKHc6aTX6QXJIaC9f+OiJIgGFfb430UflGCfBlzE/QxLBt1OVpOHtAA3amwNElDpw/HzRgvnaSL1PKlZGCeJQdi8fhtxwx4dXgLClbaJlwX6lKzEk20jQfaZy0bAi+5enwvsx/Yhancu5ZcdMmvQZKJ1Nhpmw8hJdK0c4mUT4mJ5/T/AEnE0s4fXPbL8PCka954EGGH5q2b8rUdQ97jZ02wMUW7FpThU4bDJ+/iPeiqa5xup5ATNPmD+3SBVWNdauRn+I1bfrtWzGMVB1DFJcJrmoLRQgkQmvXGTAMllcd7K/vVFM2D9R0B87/ZzwgOS8RARtGn3CSaxlE12ioAZpkp+skK49ZsaGwSYSKDfEKW2ChQvnRW4hUbgiXPkProYx0tLq4T81nplJRZx+6ZjhEeZi1M4uih68i5bXsz0fxYWhEiYgdHa8S7gcspMc0+3gOqOEb1K6uU3bg/Vc9d0Upl44G3KGwMIbjuB7BdW2S9KjDQr9TjCE/W+GKlrdk44HpuB25kEmBd2sd47fYDxLzuI+t8AWO17x3VPjdyl4vxfgletztqcAfTMPYJ/1Hk8MqZw73opmRNS+151icOvoeFcDmCwg+Zdm5PM1faLHKPtRVdQt+OWHuM9Hznv/PXqarMs0z5dAS6H6p6iqVrH4O1158kCh7Teo6SlpMzr6JJl7AHHu5IKfRnx2HDNarMVTPKKdyPkL8qvFaUs0F3Q62k+TGscakpXdPNa4jbYXtmR3sBL1phg5o2OLD07mxnjpfKHXf8ddQ1ZDtAkeM1fJZNr+yulaYiApvH6975TWouTnvam2+qyZU5E8CnwME1dMJ3MKnANNwHYSSc8UpHMMj96veiMLz2bFluyNeZA/FGl/ftNUcYpbOoAHw==|920

@@ -1,0 +1,349 @@
+{
+  "Rows": {
+    "Count": 47
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "0,0": "test_skip_1",
+    "0,7": "test_skip_2",
+    "17,26": "等于3"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 1,
+            "Placement": {
+              "SerializeProperty": "=工作流命令!A1"
+            },
+            "PageName": "表信息",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=工作流命令!A1"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=表信息!tableName"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "test_skip_1",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "0,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 1,
+            "Placement": {
+              "SerializeProperty": "=工作流命令!H1"
+            },
+            "PageName": "表信息",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=工作流命令!H1"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=表信息!tableName"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "test_skip_2",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,26": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "3,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "test_skip_2",
+        "RowIndex": 3,
+        "ColumnIndex": 2,
+        "ColumnCount": 23,
+        "RowCount": 14,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "4,4": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "ID"
+      }
+    },
+    "4,6": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "文本"
+      }
+    },
+    "4,10": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "整数"
+      }
+    },
+    "4,13": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "小数"
+      }
+    },
+    "4,16": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "FGC_State"
+      }
+    },
+    "4,20": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "FGC_AssignTo"
+      }
+    },
+    "18,2": {
+      "CellType": {
+        "$type": "Forguncy.ProcessBarCellType, ServerDesignerCommon",
+        "TableName": "test_skip_2",
+        "ShowCreateBy": true,
+        "ShowModifyBy": true,
+        "DesignTimeShowState": {
+          "TableName": "test_skip_2",
+          "SelectedID": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    },
+    "18,26": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 2,
+        "FirstParamValue": "3"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "DarkGray"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 0,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "3,2": 2,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 3,
+      "3,7": 3,
+      "3,8": 3,
+      "3,9": 3,
+      "3,10": 3,
+      "3,11": 3,
+      "3,12": 3,
+      "3,13": 3,
+      "3,14": 3,
+      "3,15": 3,
+      "3,16": 3,
+      "3,17": 3,
+      "3,18": 3,
+      "3,19": 3,
+      "3,20": 3,
+      "3,21": 3,
+      "3,22": 3,
+      "3,23": 3,
+      "3,24": 4,
+      "4,2": 5,
+      "4,24": 6,
+      "5,2": 5,
+      "5,24": 6,
+      "6,2": 5,
+      "6,24": 6,
+      "7,2": 5,
+      "7,24": 6,
+      "8,2": 5,
+      "8,24": 6,
+      "9,2": 5,
+      "9,24": 6,
+      "10,2": 5,
+      "10,24": 6,
+      "11,2": 5,
+      "11,24": 6,
+      "12,2": 5,
+      "12,24": 6,
+      "13,2": 5,
+      "13,24": 6,
+      "14,2": 5,
+      "14,24": 6,
+      "15,2": 5,
+      "15,24": 6,
+      "16,2": 7,
+      "16,3": 8,
+      "16,4": 8,
+      "16,5": 8,
+      "16,6": 8,
+      "16,7": 8,
+      "16,8": 8,
+      "16,9": 8,
+      "16,10": 8,
+      "16,11": 8,
+      "16,12": 8,
+      "16,13": 8,
+      "16,14": 8,
+      "16,15": 8,
+      "16,16": 8,
+      "16,17": 8,
+      "16,18": 8,
+      "16,19": 8,
+      "16,20": 8,
+      "16,21": 8,
+      "16,22": 8,
+      "16,23": 8,
+      "16,24": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,4,1,2",
+    "4,6,1,4",
+    "4,10,1,3",
+    "4,13,1,3",
+    "4,16,1,4",
+    "4,20,1,5",
+    "18,2,4,23",
+    "2,26,2,8",
+    "18,26,2,5",
+    "5,2,12,23",
+    "0,0,2,5",
+    "0,7,2,5",
+    "3,4,1,2",
+    "3,6,1,4",
+    "3,10,1,3",
+    "3,13,1,3",
+    "3,16,1,4",
+    "3,20,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "inter",
+      "Formula": "工作流命令!$AA$19"
+    }
+  ]
+}//Jy53goY1B4eciqwrBPUBq4m+Cesa/2VwFqF8IrMI8qff0b8NE4feYLu1r9AJ2IVcevURinBGInFF4qqk7j6SS/FdsHza0/RT0qA867ktKugOQ+L8IESkP6kYe7QYSjNKhxj1JNJU4xfTxZTxSEOpSrRaHZLndWhJOXrN/q4KGzAfnjxq+VD1MtsUMOhQzE3jfcUpe83D3fjoYAlKR8pj4dmg+L2m3CMD2TXDTHP9rAC6IDnK1p9hKFWrEheWAE45a0L2n7HCdjpmkUpGas7ffoAQyYLThSex/HjKCi44bLIVSWp/WtG5nHwCUov5+vcv5VvScuwpdNTlycgpVxhnVtmH23jaiw1j7e24vJ+VP/h6B2kIRYyMIUIDBYEX8VjvMo4XjAlLshRJ9ud8JGWwE6GTmcZMA7JF2y0qjLWahKTjPTmjpEpnNtEZH7ZiDR3z8kovyex6ueZ/S/Ffw1D6BJmd8NBdt3aCZi/cl8xgdzJFFAxT8tJ0sdSF6Tovu/2Rj3za7GwF/ctmrHfeXKiobNs6ZtcClOSTXA54CubiYiHw7BlxMWBzZsOLXICTgC0zTT0J2lcUvDi/3ZWOxnzaAuNYJbetkJShBqEPwcrmn/952q2dkHLCjGJhAUoRP13HSVvHLySEksLH0rUN+xici2WfClkQIwCCwMWZrF1KxHVPuREp8OnfYtwSLCESmcGlIjPUqjvT/UKrHrpqHkAnyxypvTYMvXaRCTlhHgyOqMFs2sRmwggoEc+jcVKaS0bSURJwqlTfAgftrxmQ9kx00tzIG77429IydJYtMv9l767/HMUfN7tlYbhO0DKQgnqVgKzNGSmfD0Hp/oRMtV0WI4o9+/MUsBVyeM0/N0BX8eIHjeAL4PIsj7GT48NZMk/WVnjls+CBO60nbzMdVd/1Xg==|920

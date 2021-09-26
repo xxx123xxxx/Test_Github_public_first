@@ -3,26 +3,982 @@
     "Count": 45
   },
   "Cols": {
+    "RowColumnAttachedInfos": {
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 174.0
+        }
+      }
+    },
     "Count": 60
+  },
+  "Values": {
+    "0,0": "test_skip_1",
+    "0,7": "test_skip_2",
+    "2,8": "非空",
+    "3,1": "添加_校验",
+    "6,1": "添加",
+    "9,1": "更新-当前行-校验",
+    "12,1": "更新-当前行",
+    "16,1": "事务_全部进行数据校验",
+    "17,16": "设置变量命令",
+    "19,1": "事务_全部不进行数据校验",
+    "21,16": "模板命令",
+    "22,1": "事务_第一个进行数据校验",
+    "25,1": "事务_第二个进行数据校验",
+    "28,1": "添加_添加_No_Yes",
+    "31,1": "添加_添加_YES_NO"
+  },
+  "Formulas": {
+    "3,8": "I7"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 1,
+            "Placement": {
+              "SerializeProperty": "=添加!A1"
+            },
+            "PageName": "表信息",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!A1"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=表信息!tableName"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "test_skip_1",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "0,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 1,
+            "Placement": {
+              "SerializeProperty": "=添加!H1"
+            },
+            "PageName": "表信息",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!H1"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=表信息!tableName"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "test_skip_2",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "0,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I4"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "添加_校验",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "3,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "6,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "CheckDataValidation": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I7"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "添加",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "6,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "8,16": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "test_skip_1",
+        "RowIndex": 8,
+        "ColumnIndex": 16,
+        "ColumnCount": 7,
+        "RowCount": 8,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "9,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定要更新这行记录吗？",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本"
+              }
+            ]
+          }
+        ],
+        "Text": "更新-当前行-校验",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "9,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "9,16": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "ID"
+      }
+    },
+    "9,17": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "文本"
+      }
+    },
+    "9,18": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "整数"
+      }
+    },
+    "9,19": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "小数"
+      }
+    },
+    "9,20": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "日期"
+      }
+    },
+    "9,21": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "时间"
+      }
+    },
+    "9,22": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "是_否"
+      }
+    },
+    "12,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "ShowConfirm": false,
+            "CheckDataValidation": false,
+            "ConfirmText": "您确定要更新这行记录吗？",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I13"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "更新-当前行",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "12,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "16,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I17"
+                }
+              }
+            ],
+            "NextUpdateDataTableCommand": {
+              "TableName": "test_skip_2",
+              "UpdateType": "add",
+              "ShowConfirm": false,
+              "ConfirmText": "您确定添加这条记录?",
+              "UpdateValues": [
+                {
+                  "ColumnName": "文本",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=添加!I20"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "Text": "事务_全部进行数据校验",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "16,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "1"
+      }
+    },
+    "17,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I4,添加!I7,添加!I10,添加!I13,添加!I17"
+                },
+                "Value": "1"
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I20"
+                },
+                "Value": "2"
+              }
+            ]
+          }
+        ],
+        "Text": "设置变量命令",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "19,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "CheckDataValidation": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I17"
+                }
+              }
+            ],
+            "NextUpdateDataTableCommand": {
+              "TableName": "test_skip_2",
+              "UpdateType": "add",
+              "ShowConfirm": false,
+              "CheckDataValidation": false,
+              "ConfirmText": "您确定添加这条记录?",
+              "UpdateValues": [
+                {
+                  "ColumnName": "文本",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=添加!I20"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "Text": "事务_全部不进行数据校验",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "19,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "2"
+      }
+    },
+    "21,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+            },
+            "Params": [
+              {
+                "ParamReferObject": {
+                  "ParamID": "1a4fdeda-f955-458d-8b49-ef4c2ba44f67",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "72cfbebd-1ca4-4144-b5f8-1a8989b2c401",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!text"
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "d8078396-c736-4e34-8e14-8cb8222dfb8a",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "857ad05e-a03e-455e-a71f-f26ebf04010f",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "53e56d49-98d5-4b5f-a1ae-8902d42ef15a",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "9b951c0d-8953-48af-83d9-5682584e9a12",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "d4ad8aed-1edd-4ab3-a613-6c4c7aed200d",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "7e011b04-4d5c-447d-931e-1ec1934f3d18"
+                  }
+                }
+              }
+            ],
+            "ReturnPropertiesTo": []
+          }
+        ],
+        "Text": "模板命令",
+        "TemplateKey": "_RS_Normal_Style2"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "21,20": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "3"
+      }
+    },
+    "22,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I17"
+                }
+              }
+            ],
+            "NextUpdateDataTableCommand": {
+              "TableName": "test_skip_2",
+              "UpdateType": "add",
+              "ShowConfirm": false,
+              "CheckDataValidation": false,
+              "ConfirmText": "您确定添加这条记录?",
+              "UpdateValues": [
+                {
+                  "ColumnName": "文本",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=添加!I20"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "Text": "事务_第一个进行数据校验",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "25,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "CheckDataValidation": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I17"
+                }
+              }
+            ],
+            "NextUpdateDataTableCommand": {
+              "TableName": "test_skip_2",
+              "UpdateType": "add",
+              "ShowConfirm": false,
+              "ConfirmText": "您确定添加这条记录?",
+              "UpdateValues": [
+                {
+                  "ColumnName": "文本",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=添加!I20"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "Text": "事务_第二个进行数据校验",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "26,16": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "test_skip_1",
+        "RowIndex": 26,
+        "ColumnIndex": 16,
+        "ColumnCount": 7,
+        "RowCount": 7,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格2",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "27,16": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "ID"
+      }
+    },
+    "27,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "CheckDataValidation": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!text"
+                }
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "28,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "CheckDataValidation": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I29"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_2",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I32"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "添加_添加_No_Yes",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "28,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "1"
+      }
+    },
+    "31,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I29"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_2",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "CheckDataValidation": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=添加!I32"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "添加_添加_YES_NO",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "31,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "2"
+      }
+    },
+    "35,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.Page.getCell(name).getValue()\r\nForguncy.addTableData(tableName, newValue, callback, errorCallback)\r\n",
+            "ID": "2c6bec93b4e74329a2eb0f43a265d5e1"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "35,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    }
   },
   "StyleDatas": {
     "Styles": [
       {
         "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "Formatter": 2
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "Formatter": 2,
+        "BorderRight": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
       }
     ],
     "Types": {
       "Strs": [
-        "Body"
+        "Body",
+        "[AUTO]General",
+        "@",
+        "DarkGray"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        }
       ]
     },
     "CellStyles": {
-      "0,2": 0,
-      "0,3": 0,
-      "0,4": 0,
       "0,5": 0,
       "0,6": 0,
-      "0,7": 0,
+      "0,7": 1,
       "0,8": 0,
       "0,9": 0,
       "0,10": 0,
@@ -31,9 +987,6 @@
       "0,13": 0,
       "0,14": 0,
       "0,15": 0,
-      "1,2": 0,
-      "1,3": 0,
-      "1,4": 0,
       "1,5": 0,
       "1,6": 0,
       "1,7": 0,
@@ -59,32 +1012,13 @@
       "2,13": 0,
       "2,14": 0,
       "2,15": 0,
-      "3,2": 0,
-      "3,3": 0,
-      "3,4": 0,
-      "3,5": 0,
       "3,6": 0,
       "3,7": 0,
-      "3,8": 0,
-      "3,9": 0,
-      "3,10": 0,
-      "3,11": 0,
-      "3,12": 0,
-      "3,13": 0,
+      "3,8": 2,
       "3,14": 0,
       "3,15": 0,
-      "4,2": 0,
-      "4,3": 0,
-      "4,4": 0,
-      "4,5": 0,
       "4,6": 0,
       "4,7": 0,
-      "4,8": 0,
-      "4,9": 0,
-      "4,10": 0,
-      "4,11": 0,
-      "4,12": 0,
-      "4,13": 0,
       "4,14": 0,
       "4,15": 0,
       "5,2": 0,
@@ -101,13 +1035,14 @@
       "5,13": 0,
       "5,14": 0,
       "5,15": 0,
+      "6,1": 1,
       "6,2": 0,
       "6,3": 0,
       "6,4": 0,
       "6,5": 0,
       "6,6": 0,
       "6,7": 0,
-      "6,8": 0,
+      "6,8": 2,
       "6,9": 0,
       "6,10": 0,
       "6,11": 0,
@@ -115,6 +1050,7 @@
       "6,13": 0,
       "6,14": 0,
       "6,15": 0,
+      "7,1": 0,
       "7,2": 0,
       "7,3": 0,
       "7,4": 0,
@@ -143,13 +1079,16 @@
       "8,13": 0,
       "8,14": 0,
       "8,15": 0,
-      "9,2": 0,
-      "9,3": 0,
-      "9,4": 0,
-      "9,5": 0,
+      "8,16": 3,
+      "8,17": 4,
+      "8,18": 4,
+      "8,19": 4,
+      "8,20": 4,
+      "8,21": 4,
+      "8,22": 5,
       "9,6": 0,
       "9,7": 0,
-      "9,8": 0,
+      "9,8": 2,
       "9,9": 0,
       "9,10": 0,
       "9,11": 0,
@@ -157,10 +1096,13 @@
       "9,13": 0,
       "9,14": 0,
       "9,15": 0,
-      "10,2": 0,
-      "10,3": 0,
-      "10,4": 0,
-      "10,5": 0,
+      "9,16": 6,
+      "9,17": 0,
+      "9,18": 0,
+      "9,19": 0,
+      "9,20": 0,
+      "9,21": 0,
+      "9,22": 7,
       "10,6": 0,
       "10,7": 0,
       "10,8": 0,
@@ -170,14 +1112,308 @@
       "10,12": 0,
       "10,13": 0,
       "10,14": 0,
-      "10,15": 0
+      "10,15": 0,
+      "10,16": 6,
+      "10,17": 0,
+      "10,18": 0,
+      "10,19": 0,
+      "10,20": 7,
+      "10,21": 0,
+      "10,22": 7,
+      "11,16": 6,
+      "11,17": 0,
+      "11,18": 0,
+      "11,19": 0,
+      "11,20": 7,
+      "11,21": 0,
+      "11,22": 7,
+      "12,1": 1,
+      "12,2": 0,
+      "12,3": 0,
+      "12,4": 0,
+      "12,5": 0,
+      "12,8": 2,
+      "12,9": 0,
+      "12,10": 0,
+      "12,11": 0,
+      "12,12": 0,
+      "12,13": 0,
+      "12,16": 6,
+      "12,17": 0,
+      "12,18": 0,
+      "12,19": 0,
+      "12,20": 7,
+      "12,21": 0,
+      "12,22": 7,
+      "13,1": 0,
+      "13,2": 0,
+      "13,3": 0,
+      "13,4": 0,
+      "13,5": 0,
+      "13,8": 0,
+      "13,9": 0,
+      "13,10": 0,
+      "13,11": 0,
+      "13,12": 0,
+      "13,13": 0,
+      "13,16": 6,
+      "13,17": 0,
+      "13,18": 0,
+      "13,19": 0,
+      "13,20": 7,
+      "13,21": 0,
+      "13,22": 7,
+      "14,16": 8,
+      "14,17": 9,
+      "14,18": 9,
+      "14,19": 9,
+      "14,20": 10,
+      "14,21": 0,
+      "14,22": 7,
+      "15,16": 8,
+      "15,17": 9,
+      "15,18": 9,
+      "15,19": 9,
+      "15,20": 9,
+      "15,21": 9,
+      "15,22": 10,
+      "16,8": 2,
+      "16,9": 0,
+      "16,10": 0,
+      "16,11": 0,
+      "16,12": 0,
+      "16,13": 0,
+      "17,8": 0,
+      "17,9": 0,
+      "17,10": 0,
+      "17,11": 0,
+      "17,12": 0,
+      "17,13": 0,
+      "19,1": 1,
+      "19,2": 0,
+      "19,3": 0,
+      "19,4": 0,
+      "19,5": 0,
+      "19,8": 2,
+      "19,9": 0,
+      "19,10": 0,
+      "19,11": 0,
+      "19,12": 0,
+      "19,13": 0,
+      "20,1": 0,
+      "20,2": 0,
+      "20,3": 0,
+      "20,4": 0,
+      "20,5": 0,
+      "20,8": 0,
+      "20,9": 0,
+      "20,10": 0,
+      "20,11": 0,
+      "20,12": 0,
+      "20,13": 0,
+      "21,20": 11,
+      "22,1": 1,
+      "22,2": 0,
+      "22,3": 0,
+      "22,4": 0,
+      "22,5": 0,
+      "23,1": 0,
+      "23,2": 0,
+      "23,3": 0,
+      "23,4": 0,
+      "23,5": 0,
+      "25,1": 1,
+      "25,2": 0,
+      "25,3": 0,
+      "25,4": 0,
+      "25,5": 0,
+      "26,1": 0,
+      "26,2": 0,
+      "26,3": 0,
+      "26,4": 0,
+      "26,5": 0,
+      "26,16": 12,
+      "26,17": 13,
+      "26,18": 13,
+      "26,19": 13,
+      "26,20": 13,
+      "26,21": 13,
+      "26,22": 14,
+      "27,16": 15,
+      "27,22": 16,
+      "28,8": 2,
+      "28,9": 0,
+      "28,10": 0,
+      "28,11": 0,
+      "28,12": 0,
+      "28,13": 0,
+      "28,16": 15,
+      "28,22": 17,
+      "29,8": 0,
+      "29,9": 0,
+      "29,10": 0,
+      "29,11": 0,
+      "29,12": 0,
+      "29,13": 0,
+      "29,16": 15,
+      "29,22": 17,
+      "30,8": 0,
+      "30,9": 0,
+      "30,10": 0,
+      "30,11": 0,
+      "30,12": 0,
+      "30,13": 0,
+      "30,16": 15,
+      "30,22": 17,
+      "31,1": 1,
+      "31,2": 0,
+      "31,3": 0,
+      "31,4": 0,
+      "31,5": 0,
+      "31,8": 2,
+      "31,9": 0,
+      "31,10": 0,
+      "31,11": 0,
+      "31,12": 0,
+      "31,13": 0,
+      "31,16": 15,
+      "31,22": 17,
+      "32,1": 0,
+      "32,2": 0,
+      "32,3": 0,
+      "32,4": 0,
+      "32,5": 0,
+      "32,8": 0,
+      "32,9": 0,
+      "32,10": 0,
+      "32,11": 0,
+      "32,12": 0,
+      "32,13": 0,
+      "32,16": 18,
+      "32,17": 19,
+      "32,18": 19,
+      "32,19": 19,
+      "32,20": 19,
+      "32,21": 19,
+      "32,22": 20,
+      "35,8": 11
     },
     "SheetStyle": {
       "FontFamily": 0
     }
   },
+  "Spans": [
+    "0,0,2,5",
+    "0,7,2,5",
+    "3,1,2,5",
+    "3,8,2,6",
+    "6,1,2,5",
+    "6,8,2,6",
+    "9,1,2,5",
+    "10,16,6,7",
+    "9,8,2,6",
+    "12,1,2,5",
+    "12,8,2,6",
+    "16,1,2,5",
+    "16,8,2,6",
+    "19,8,2,6",
+    "19,1,2,5",
+    "22,1,2,5",
+    "25,1,2,5",
+    "17,16,2,3",
+    "28,1,2,5",
+    "28,8,2,6",
+    "31,8,2,6",
+    "31,1,2,5",
+    "21,16,2,3",
+    "21,20,2,3",
+    "28,16,5,7",
+    "35,1,2,5",
+    "35,8,2,6",
+    "0,16,2,4"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=添加!I32"
+            },
+            "Value": "2"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=添加!I4,添加!I7,添加!I10,添加!I13,添加!I17"
+            },
+            "Value": "1"
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=添加!I20"
+            },
+            "Value": "2"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+        "TableName": "test_skip_1",
+        "UpdateType": "add",
+        "ShowConfirm": false,
+        "CheckDataValidation": false,
+        "ConfirmText": "您确定添加这条记录?",
+        "UpdateValues": [
+          {
+            "ColumnName": "文本",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=添加!I29"
+            }
+          }
+        ],
+        "Disabled": true
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=添加!I29"
+            },
+            "Value": "1"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+        "TableName": "test_skip_2",
+        "UpdateType": "add",
+        "ShowConfirm": false,
+        "ConfirmText": "您确定添加这条记录?",
+        "UpdateValues": [
+          {
+            "ColumnName": "文本",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=添加!I32"
+            }
+          }
+        ],
+        "Disabled": true
+      }
+    ],
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -187,5 +1423,15 @@
   "PrintInfo": {
     "Margin": {},
     "PaperSize": {}
-  }
-}//Jp7JJRlBsjgM7q4LSWSLEZcxbt+pnKbJOxC01RaP2VTcZyr/oN4QCcdvaf/chGIEucR/kjkCok/1Uhd1IAAaj6+w/XamH2+AGPiyYHE5V+8OJz42FW96T1d4MFSCpinvWfR+lC+OJnfW+FupuBPLrV82SVGOLjPn9GOhE8K5fuivn71AxnNlVN6sqMo9lz/31IHOQbc/xZTMGSiiyaCnQGEGJxQDl5TqYaDHKRV4ZZfTWKlVDYU+ZwLah5XRTVTxZynyZj2WvA19EdK7BpcyijyDQ3T4p9yofhHmsg16cbI6lOiRov15W44av1m2WCagxqeEWyzcqOjo50h1/rrKE0/JB5KOPrZcbEi8YEQzly8pOH6t+wM9cP9wCEOmEoJEqviqk79zehgXVG9Obk8PH62QQGAAktRmoFYCPs1tXmAoiFrPx/tRQo2w14m3deb6hVCeqXYWUpIhYOVogI8IOXEEsvbyZTr1erzNXXfB/XtHq8ZDZG7lOznFBSfTkUU87qQrAZRzzq6nCkLMfh4bD687e/ZHcUn4ZsBphQNxccSEYMT8z7g0FBguTlFluYrTwsnfNQwGPXsvcCDD0+i7ZOPXFCgrOP6wRYa8WQ4w86Six78suJq1thhAIm9sulDycba4dVVKFc1BJg0q9byVzarleDl7RmRclK15DgSqcGwzixg467u+YuRBXcrU9XJ2g/xOFAu3K6Ol9rp7YWiRTLRw1HZ84fPK4yCiKp29OCb7JpQ3ix5kRM1tSYA30zv1oiqZuoGj9qlXrPhriAdREuvDE/H2D/wkGJaWTH8ldVjJUT6U01A+xk8ZpYZbCdnSNBXRd2ZumgarjnH7DTUgIQZFaEPuXZFBNkW4y2oTpgkojNiIv+cJsVQoft1vQLf9CtJBp5wFrTfNWSGybKNksw==|920
+  },
+  "CustomNames": [
+    {
+      "Name": "text",
+      "Formula": "添加!$U$22"
+    },
+    {
+      "Name": "aa",
+      "Formula": "添加!$I$36"
+    }
+  ]
+}//ekcbnzv9sL+TBUpAj91Jp7JGXmplfEyUZKJ17QwK64vc5at72tRm+KCMze0VY8jV4ABzDNGWKCiw4ZvvmDnMO7c5eOyRL5A49Pw0YEs0j/PHGNhxne/7cJ3ZnwLD+zE4q9ItH/RzVswUtxYGmcjRLvwGRy5d9S1v93wfpQrKGpS1udJ/k9mbE9Ns400bkSgev0uPaZj9BTXSuJ8/O4IcKXdgjKevrYwLUob4upz/CYzHbViOoo7FopPmycaIzDUcUvGaUzgafyuH/4+ibl6dD3hP/lua5a2Y552bf3h+FyRoJFE4LRdUvph1gaVR975HMTII1H+Atz1PrtL5f+7NjYAvBG7j2i0kSR7zMcIlnKWHBC85OOuIJHNe9/xW6GJfBpyHdxeIQq4VvzMtOladOimY1ke5UVXGwa6QxtVWZzsPL62gc6nNU8/YXITUq8bVG0Mxw0qVdP99oQ0W5yXSWg1O+IO3oLkHzkhvVFT4KQ19ySQNcyb/G2fE9dii1p71+gnR1Dy9lsaOQABCA+fraHVSr6GftMkGPdiGHVm5d9btNgoaF1DgrBsjL2q777Z9Pbm2fjUl0+m77cicz+bV0wbcr3sypOi6NpXco0qmcFwUkMDMBDaD5DgalfRlJnj4JZDV/+AW9RV+fMakYH8zrto67LQxzHG6lefuG8eL94Jut3uhVWxeZzHMY5wDJuOQY5xzZzVdTHgcTFF2Ji2yV8//0LtMUgxOluPLRq/C4WIkSEM9wCEa3QtV8xAYFfWdaOJouBIqLk7T2p5ZJzQu+VGbrDfRF4CqEAFH167nYqQAasdjXKu2aTGtoGbTHwIE3XjNTXsF4/I+/t32T1bUyUJIUwRpKsLLTsMbqaoBjbu0deMosi3jHFecbUhYGawGXR/OQBS2W2UZYO6+nNeuiA==|920

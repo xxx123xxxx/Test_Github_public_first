@@ -1,6 +1,6 @@
 {
   "Rows": {
-    "Count": 45
+    "Count": 11
   },
   "Cols": {
     "RowColumnAttachedInfos": {
@@ -58,15 +58,144 @@
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 40.0
         }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
       }
     },
-    "Count": 60
+    "Count": 14,
+    "DefaultSize": 40.0
   },
   "AttachInfos": {
     "0,0": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=表信息!tableName"
+                      }
+                    ]
+                  },
+                  "value": "test_skip_1",
+                  "Id": "c466c099-66c5-4a0e-b15c-cd10c2a8d522"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=表信息!I:M"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "1adea376-b0ed-4712-a644-0788c3f1f034"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=表信息!B:I"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "7b1e80d2-1f00-47aa-b2da-28824490cd72"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "1,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "delete",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定要删除吗？",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 4,
+              "ColumnBindingInfo": {
+                "TableName": "test_skip_1",
+                "ColumnName": "ID"
+              },
+              "Value": "100",
+              "Id": "82f98ff5-ddc7-435f-a7c9-a727415fd058"
+            },
+            "UpdateValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_2",
+            "UpdateType": "delete",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定要删除吗？",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 4,
+              "ColumnBindingInfo": {
+                "TableName": "test_skip_2",
+                "ColumnName": "ID"
+              },
+              "Value": "100",
+              "Id": "4b35338d-7eb4-43a3-9267-956b935b56e9"
+            },
+            "UpdateValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,1": {
@@ -173,6 +302,9 @@
   "StyleDatas": {
     "Styles": [
       {
+        "Formatter": 0
+      },
+      {
         "BorderTop": 0,
         "BorderLeft": 0
       },
@@ -203,79 +335,83 @@
     ],
     "Types": {
       "Strs": [
+        "@",
         "DarkGray",
         "Body"
       ],
       "Borders": [
         {
-          "Color": 0
+          "Color": 1
         }
       ]
     },
     "CellStyles": {
-      "2,1": 0,
-      "2,2": 1,
-      "2,3": 1,
-      "2,4": 1,
-      "2,5": 1,
-      "2,6": 1,
-      "2,7": 2,
-      "2,9": 0,
-      "2,10": 1,
-      "2,11": 1,
-      "2,12": 2,
-      "3,1": 3,
-      "3,7": 4,
-      "3,9": 3,
-      "3,12": 4,
-      "4,1": 3,
-      "4,5": 4,
-      "4,7": 4,
-      "4,9": 3,
-      "4,12": 4,
-      "5,1": 3,
-      "5,5": 4,
-      "5,7": 4,
-      "5,9": 3,
-      "5,12": 4,
-      "6,1": 3,
-      "6,5": 4,
-      "6,7": 4,
-      "6,9": 3,
-      "6,12": 4,
-      "7,1": 3,
-      "7,5": 4,
-      "7,7": 4,
-      "7,9": 3,
-      "7,12": 4,
-      "8,1": 5,
-      "8,2": 6,
-      "8,3": 6,
-      "8,4": 6,
-      "8,5": 7,
-      "8,7": 4,
-      "8,9": 3,
-      "8,12": 4,
-      "9,1": 5,
-      "9,2": 6,
-      "9,3": 6,
-      "9,4": 6,
-      "9,5": 6,
-      "9,6": 6,
-      "9,7": 7,
-      "9,9": 5,
-      "9,10": 6,
-      "9,11": 6,
-      "9,12": 7
+      "0,0": 0,
+      "2,1": 1,
+      "2,2": 2,
+      "2,3": 2,
+      "2,4": 2,
+      "2,5": 2,
+      "2,6": 2,
+      "2,7": 3,
+      "2,9": 1,
+      "2,10": 2,
+      "2,11": 2,
+      "2,12": 3,
+      "3,1": 4,
+      "3,7": 5,
+      "3,9": 4,
+      "3,12": 5,
+      "4,1": 4,
+      "4,5": 5,
+      "4,7": 5,
+      "4,9": 4,
+      "4,12": 5,
+      "5,1": 4,
+      "5,5": 5,
+      "5,7": 5,
+      "5,9": 4,
+      "5,12": 5,
+      "6,1": 4,
+      "6,5": 5,
+      "6,7": 5,
+      "6,9": 4,
+      "6,12": 5,
+      "7,1": 4,
+      "7,5": 5,
+      "7,7": 5,
+      "7,9": 4,
+      "7,12": 5,
+      "8,1": 6,
+      "8,2": 7,
+      "8,3": 7,
+      "8,4": 7,
+      "8,5": 8,
+      "8,7": 5,
+      "8,9": 4,
+      "8,12": 5,
+      "9,1": 6,
+      "9,2": 7,
+      "9,3": 7,
+      "9,4": 7,
+      "9,5": 7,
+      "9,6": 7,
+      "9,7": 8,
+      "9,9": 6,
+      "9,10": 7,
+      "9,11": 7,
+      "9,12": 8
     },
     "SheetStyle": {
-      "FontFamily": 1
+      "FontFamily": 2
     }
   },
   "Spans": [
-    "0,0,1,6",
     "4,1,6,7",
-    "4,9,6,4"
+    "4,9,6,4",
+    "0,0,1,6",
+    "1,6,1,2",
+    "1,11,1,2"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -295,4 +431,4 @@
       "Formula": "表信息!$A$1"
     }
   ]
-}//3zvHg0RirAsgmzh3qspGbziQSyCVp01/RCm/RH5qYW2YYVMj8mLthh12U3e8GX0/5I30NaCVfg4ZSFy5u0p1lBSGH1B//UV0fEEUDPAlCvr3n2/l0P5aqWnbAxB8J469Gi2QDSylKVzrMWWg9W9PrIRT+xKI8QeTtmaPgKEGqqjF+qYDKP3MxNxZaZZo4QYA8Eb+OkZBbrxz6WaBlw9zBxOWl1qQPPAd2cqAz0xFnti5HJdDUB666sOf+l4JNVJz8GtcJGKhmhVW90/QUXgKGviE2J01STTSIWnTdLuBynOCQFxShM7JvYXe2is0M+TB0wJT9GfIUYna9o9AQXZTv8w2JgOi7fn4uhINXOt3+T0tMRqlRDSzXPkqgTgUKoNZzk2/tihn6LSbWdKpRa/8+qTCFfr1fS7ezu/2hIGtLtBnu6i79KYburGLozxMYMjF1KJomsAxL7TIGmn56lBkmoaHG9OcxQTTLPp0hYGEBay9WF327QjIaZjgPOM54pa1F261Mg9WY/igwx9FT8xkxNgyg3dMiPDEQOAqRaTtJkVd1o9M/7XMFllHY8jvIe9799BUCx8ftNhuBiGKgNBGCtYs+huCJgdSi3YS/EJ/ZmRkMQ9aK9fD058IbceiH5pyoz1mEY7auAELHVZc8XY3dwh5929NS+iIOcpuyuWICTdLeoH5bwIHrJ3Ai5BebLGS17WmDLcAy/X3gx+7Hq0OjV/P9SyQEQ3iGWeErsAlU2FY9vHn8X00BBbxlf7KRXPSytZZIeIJwRQ5f/StWDzJsR13+e3TbWY7pYQtkARYPtT2Cf/5gfOhYB2XzVnCoUsA52wl0BG641TKZgxxFfXouP0Zkk09nAhRhIuduRFBMNyLkIqao3W5vZGrWkwkqh0b3GV5Y+ZRURUNw3SpyCZ7kw==|920
+}//aLwJlrzk0dGKlNmlwhgep3SeK6giAUPDDrQcz2RSzB1SCORgqTmLTs9graqolyC+MaBXlGmXZdAosBglBStHqUDqyqEAaHVOIjgRDhh0jaM91KVV6isd4EiukEPKxJD+4c2EglfvbU47JZ9i8F5yhTOUn0TN7kYPe6Fp4YrQ/At0BjjOfRHTxpqiVV8Vh9MGMiGFiGzN0fr4SgAqLX2WfmrML8aze8/bgw3KTRZbDmjGHAgT1ldB2n8wOFGDpc+PkQxK49dCeA1RgRoxYEVA20T7DzFD5eCo8UekM72IkBjgMPxm1vZOnjac4w0vUFUucs/ENd9NGFXOGUHgMvlTfjuE07R4K1xp1y9k/Ke/jdG28rymrW11WjaZgMPfElXlXG8utaYlnz3nJ/PhRqmzqBD3Vjt1XjhvW021UqOr79apgcAX1y5hxHAeV6RmOMMYvblBOdR50u7VZEayJrtw1nUYtiRgcyPdJfUt84ownhClOOTUnYepPZAVwSYD6vX+PDgUuTjONM+ozXY1YmelzvMIKcoMfk4s9MXG0mKCZYprtszj34n1B82B0/IlfueyotW6VEdemb/z1uOUNmVa4Rnz7HcLhuk+/JNvaeMDygjqd74Te/vwfsyPVk0MfmcYtoDfKH/Q604g452NIhHuKgsGqi9vMjz712eGUAborMVzf9VtSEK6tmpX8iHVDHuJuFPu7sJaGLUgYL6uMQqv0PGMd2x7uSyRZBNAWzt0GyofjKTcCRAuYXbw06TZ9UimnHU23c/IVq9EK3v/LtCdHGkf4ZUwphTk2R1Zws+v1FR4i+4jQSCso0nvNfTJDOoBt2Upz8adGvuEJCdWMQEGfr2jl5wD1ZRRIQkxfnpPeCA2ojIGH3wtDqt4X9g9Rc3EYr/7Gy1tUGIGfMfYluehBQ==|920
