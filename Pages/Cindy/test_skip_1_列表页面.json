@@ -35,6 +35,7 @@
   "Values": {
     "3,19": "test_skip_1 列表",
     "7,6": "添加记录",
+    "8,34": "更新",
     "9,26": "更改",
     "9,29": "删除"
   },
@@ -113,6 +114,7 @@
             "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
             "TableName": "test_skip_1",
             "ShowConfirm": true,
+            "CheckDataValidation": false,
             "ConfirmText": "您确定要更新这行记录吗？",
             "RowsToUpdate": 2,
             "RowsToUpdateListViewName": "表格1",
@@ -127,6 +129,7 @@
             ]
           }
         ],
+        "Text": "更新",
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
@@ -221,6 +224,32 @@
           }
         ],
         "Text": "删除"
+      }
+    },
+    "10,34": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "ShowConfirm": true,
+            "CheckDataValidation": false,
+            "ConfirmText": "您确定要更新这行记录吗？",
+            "RowsToUpdate": 2,
+            "RowsToUpdateListViewName": "表格1",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=test_skip_1_列表页面!AP11"
+                }
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "10,41": {
@@ -466,6 +495,8 @@
     "8,41,1,6",
     "9,9,1,2",
     "6,41,1,4",
+    "10,41,2,6",
+    "10,34,2,4",
     "8,6,1,2",
     "8,9,1,2",
     "8,11,1,3",
@@ -474,13 +505,12 @@
     "8,20,1,3",
     "8,23,1,3",
     "8,26,1,3",
-    "8,29,1,3",
-    "10,41,2,6"
+    "8,29,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
-      "VisitMode": 2
+      "VisitMode": 3
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
@@ -489,4 +519,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//64SEvHSdR1ONjEq3d6oxjVvR2S9hegJb7vuYh919kL+/osdgdAU/kVemNoLr1JsJ1uK8H6r909VFymWQq0Q9ONm54L7u6GDW1UUXloLLyFr2NDCJ5t/Zu+v/AU386Ys1jVAbZr7BSi97gI1ZbfTIhP3T5LG5C2+5094DP/NIB3DgG2J3ORX0WZ56l+cZEV8W8tU3UTtJaPWpr542YmcxaKhmteNi90LWB7FWhjEKcyDa/Z4COpaqX0pPWCGKsVJEtt2wIvou+o5eJGKWPklNWo4fx8ArTrP9mnBIGjgHUB/gAOGaTn6X9IHJ/1jztJxw8SuakZRY8ROHzrGFFh1KZzn5Q1lmH1ZbuUNYYxBpstakRpwXTGS2AN/fff3XAuiitNPuqQ65VXxfxLt/KsveSxXIAJi4gbAu3iDs0PjkY/oQFb7UOZYCjRE0aHYQPxWeO//rhc0HXTH1lIIJjWMHIBpMPbE6ivnp0687ok78R2ZNuTUVWHSsMrgjryMp3tU7Sd4X0C1AGKRpf8ZZZyQRt92oo0RDXdE+mnB7zH5WsKPZR/Ktt3xjDyCzPG1SZ8oXdhx3osYrSiMxmqd42qnUO8MHzwWfak0W9JMZzt2qEE9Y6KeMOCMPyyKGIkNuOWxGALGMCd3UzM2Dr1pnFtxAU6Ui76jt41a12XdghoNOuTFFHFMeGtFS4XghczwbXp0Hjuc7Bbnnb8idexXhQ7RkYpgISYKJbAEf7OjU3OjqTG6TbSE3rMSPV1evYzQ5KARDKTSgICihSBYehhmCGfWfgWowfz1Cn0P2AO/iMah5ZlxATDnuBUSK7UpDXwLw4UncqvQXTRBSjUDsY801NbAzJf8HUMlHQpNvyrouc6L2zQMxylDHzRh95vjyUqNnZ9Hh4uPxm7Ggw6jCaZlytip0ew==|920
+}//YCZshW4uWZK5Mtyj05+xsjPSrPZSD3cfcivSM15GXDRhEUySItDRXi397S2z4mxbUAhclnE7826UH5KWeAOdOd2HmQfe6luE+oGZU28Ohgdomq4bgcxx2qG9blvb4Sx3cHbyqdZZmoLVQkQ6a/J5Mdw0evqGNQDOWItVLFdCU7go9+iL4IZW4Jnui7To+CP0j0/PckiGAbCylgecKFaXjDidgS5RyV5aAQk0W1wVclf4oqLTJp2u62xMHWQL895Kte+4cp5LjxSF3ATwvH3zCLzeLEb0xEk4kLa4wPG4aQPVSG1GD2sffs8n1jJX8p2gTVTRpd7pNxUSKLboTzUnY8Vlb1CS6GV6V9q8pr9DIXMA0MpOHKvAclU4GIiw71Y8jEtXj75NTrQrY+qJZeQ6t/bhTlLXGW+FG7kbyEVMlED0AOXFcqwGV8XJH+usPl09w8ubuh20NSEX1Z5up5Z1LoSL5lkhJOvXP4I6EUbtMvGwMozmImzgZFxPJJfR4HZq/yzvLjTcOGRdOzFu5/iRzESFipqZqdXVzrnqGysh7I7sIK/wM0k8bZWjs7A4JJarZ25HddE8uULKuIWtRuvrgNo5gwaS03UwrE54yzhK0uH4X9kTaVA2OM6JXFEY4mwW0q4u8sKIXBgsvU7TDpuOFbjGDxQ76Id/LQ8Q4/Cj0qnFAfBpWLdvzal79DV9Zo/ldi+pdPNXze03uJJHhPVDsi4W37v+k4gRJmM72d4yHeznTaZ222Op30aqub/LBmjuAg9ksUbnOndiV5UEaJDwX4ZhmLuh7aigyFWwETcxeoDkZsj4qDqJcoROCu0a92KGvRd7WgHu2cQiPJqYjfz4ipe73QnGfZTJTXptElxrIvxs2Z6ppYN34RVNEBNHOz575aTByYchrGCNexXVVyG9OQ==|920

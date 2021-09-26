@@ -3,6 +3,7 @@
   <IntegrateWithOtherApplication>
     <Password>iM!OPY%MdXDZ</Password>
   </IntegrateWithOtherApplication>
+  <NotAllowAnonymousAccessData>True</NotAllowAnonymousAccessData>
   <StartDateFiscalYear>1</StartDateFiscalYear>
   <UserServicePort>36295</UserServicePort>
   <WebSitePort>16369</WebSitePort>
