@@ -1,0 +1,385 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,19": "test_skip_1 列表",
+    "7,6": "添加记录",
+    "9,26": "更改",
+    "9,29": "删除"
+  },
+  "AttachInfos": {
+    "5,25": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "详情页面",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=详情页面!K18"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加记录"
+      }
+    },
+    "8,6": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "test_skip_1",
+        "RowIndex": 8,
+        "ColumnIndex": 6,
+        "ColumnCount": 26,
+        "RowCount": 12,
+        "IsRowHeaderVisible": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "9,8": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "文本"
+      }
+    },
+    "9,11": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "整数"
+      }
+    },
+    "9,14": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "小数"
+      }
+    },
+    "9,17": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "日期"
+      }
+    },
+    "9,20": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "时间"
+      }
+    },
+    "9,23": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "是_否"
+      }
+    },
+    "9,26": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "详情页面",
+            "PassValues": [
+              {
+                "Source": "更改",
+                "TargetCell": {
+                  "SerializeProperty": "=详情页面!K18"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "更改"
+      }
+    },
+    "9,29": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？",
+            "UpdateValues": []
+          }
+        ],
+        "Text": "删除"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "Foreground": 2,
+        "Underline": true
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 0,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "Foreground": 2,
+        "Underline": true,
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Right",
+        "Blue",
+        "DarkGray",
+        "#D8D8D8",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        },
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "3,19": 0,
+      "5,25": 1,
+      "7,6": 2,
+      "8,6": 3,
+      "8,7": 4,
+      "8,8": 4,
+      "8,9": 4,
+      "8,10": 4,
+      "8,11": 4,
+      "8,12": 4,
+      "8,13": 4,
+      "8,14": 4,
+      "8,15": 4,
+      "8,16": 4,
+      "8,17": 4,
+      "8,18": 4,
+      "8,19": 4,
+      "8,20": 4,
+      "8,21": 4,
+      "8,22": 4,
+      "8,23": 4,
+      "8,24": 4,
+      "8,25": 4,
+      "8,26": 4,
+      "8,27": 4,
+      "8,28": 4,
+      "8,29": 4,
+      "8,30": 4,
+      "8,31": 5,
+      "9,6": 6,
+      "9,7": 7,
+      "9,8": 7,
+      "9,9": 7,
+      "9,10": 7,
+      "9,11": 7,
+      "9,12": 7,
+      "9,13": 7,
+      "9,14": 7,
+      "9,15": 7,
+      "9,16": 7,
+      "9,17": 7,
+      "9,18": 7,
+      "9,19": 7,
+      "9,20": 7,
+      "9,21": 7,
+      "9,22": 7,
+      "9,23": 7,
+      "9,24": 7,
+      "9,25": 7,
+      "9,26": 8,
+      "9,27": 7,
+      "9,28": 7,
+      "9,29": 8,
+      "9,30": 7,
+      "9,31": 9,
+      "10,6": 10,
+      "10,31": 11,
+      "11,6": 10,
+      "11,31": 11,
+      "12,6": 10,
+      "12,31": 11,
+      "13,6": 10,
+      "13,31": 11,
+      "14,6": 10,
+      "14,31": 11,
+      "15,6": 10,
+      "15,31": 11,
+      "16,6": 10,
+      "16,31": 11,
+      "17,6": 10,
+      "17,31": 11,
+      "18,6": 10,
+      "18,31": 11,
+      "19,6": 12,
+      "19,7": 13,
+      "19,8": 13,
+      "19,9": 13,
+      "19,10": 13,
+      "19,11": 13,
+      "19,12": 13,
+      "19,13": 13,
+      "19,14": 13,
+      "19,15": 13,
+      "19,16": 13,
+      "19,17": 13,
+      "19,18": 13,
+      "19,19": 13,
+      "19,20": 13,
+      "19,21": 13,
+      "19,22": 13,
+      "19,23": 13,
+      "19,24": 13,
+      "19,25": 13,
+      "19,26": 13,
+      "19,27": 13,
+      "19,28": 13,
+      "19,29": 13,
+      "19,30": 13,
+      "19,31": 14
+    },
+    "SheetStyle": {
+      "FontFamily": 5
+    }
+  },
+  "Spans": [
+    "5,25,1,7",
+    "10,6,10,26",
+    "9,6,1,2",
+    "8,6,1,2",
+    "9,8,1,3",
+    "8,8,1,3",
+    "9,11,1,3",
+    "8,11,1,3",
+    "9,14,1,3",
+    "8,14,1,3",
+    "9,17,1,3",
+    "8,17,1,3",
+    "9,20,1,3",
+    "8,20,1,3",
+    "9,23,1,3",
+    "8,23,1,3",
+    "9,26,1,3",
+    "8,26,1,3",
+    "9,29,1,3",
+    "8,29,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//1lEUXBYaYzor6/Kb8bIvrzZKWpg4Gyu79lQITNBd2eMQmY9i15MH0sc/cHCcEgoYdDqf0DZD+JAxm1jTD/6L4nUU2no0P6jJx+LS9235XEF+pEQvi9hcMFgR9h/oGqTyjUgCJK3hIgRXY85SzYQ27rbXx+57gTZxl2dduA1uIb6FbNrccwClbdUifmrT23R2HyV6WR2GE80NKVjiVOny1KnFMSy+wPPEASLe0JdxSR/B4nbZra8+fqdW4G0gwJoayh4d2dt+SmGrPqEWSx3/37dpNvSol/z3MTPaErhteu6yZkq4eTI1eMMwB1WZQG48HrnH5Td16F/OhF7xC6UqDN88HSx/T59R2IzFg82+w5vRXYANGBBPxK90N8KHqy8PPPXHW0r7beyX5i3l+v+37sK4dJ5OEviMNqI+rJ4Ti6B7jWoH03mDUftM41YHLNAdZnQ2ZQNEIDYJifT3eMafzBi+VBIs8nW37xTQ17q7ggUr5DMbeIPEYQwc6mQyqVZNp7208QXWYuh8xx6GMRNRytzo/dA429RI1dnohIYwgrmZKbzdIBd3kj18SkMFxmAiqoQ9l/wbgXhYtYjRyPkIe3y7Q6hvTJnO5LEsA5iwOoviAUwfQPhCoJposlNhzhLRe+ea832qTA6cJDwrApGzoaUTva3rGldu4LMUizmCB98597rokjQSK47Ugal5xEz86A42rJWFenvFnhR0hX3i1XzA/neV8Iqz2Xoq1yu+qecpXy1uYD1aKkdW9+QTvkiQq5yF71hY5BLoQzO8yCJxvwEwr3T8JVjlMJzwoSKWTdm2xwPCVfwL6cWdAoyZrFEdgDl+XvOs+WZKLkzsJreuxfK/DZeV2mQctL6tVHkIzh8RjYpReU7Hnp+eM/6fG20SHoITGNVr3eYpQ6pY57ogSQ==|920
