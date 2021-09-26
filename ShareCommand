@@ -3,6 +3,7 @@
   <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
     <Commands>
       <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
+        <CheckDataValidation>False</CheckDataValidation>
         <ConfirmText>您确定添加这条记录?</ConfirmText>
         <ShowConfirm>False</ShowConfirm>
         <TableName>test_skip_1</TableName>

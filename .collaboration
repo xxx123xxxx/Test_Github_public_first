@@ -125,16 +125,7 @@
   },
   {
     "ModuleName": "ShareCommand",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T15:13:09.886739+08:00",
-    "ModuleType": 13,
-    "ToRemoveFiles": [
-      "ShareCommand"
-    ]
+    "ModuleType": 13
   },
   {
     "ModuleName": "MapJsonFile",
@@ -154,46 +145,11 @@
   },
   {
     "ModuleName": "Table/test_skip_1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T15:26:48.6952216+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Cindy\\test_skip_1.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages/Cindy",
     "ModuleType": 6
-  },
-  {
-    "ModuleName": "PCPage/test_skip_1_详情页面",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T15:30:00.1084029+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Cindy\\test_skip_1_详情页面.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/test_skip_1_列表页面",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T15:30:00.1084029+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Cindy\\test_skip_1_列表页面.json"
-    ]
   },
   {
     "ModuleName": "Pages/zoey",
@@ -227,32 +183,14 @@
   },
   {
     "ModuleName": "Table/test_skip_2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T14:49:50.1898158+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "PCPage/添加",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T15:30:23.5358862+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/表信息",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-26T15:30:38.9650437+08:00",
     "ModuleType": 1
   }
 ]
