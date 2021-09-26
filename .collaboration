@@ -178,7 +178,16 @@
   },
   {
     "ModuleName": "PCPage/添加",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-09-26T15:59:23.3979474+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Cindy\\添加.json"
+    ]
   },
   {
     "ModuleName": "PCPage/表信息",
