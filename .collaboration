@@ -285,6 +285,15 @@
   },
   {
     "ModuleName": "PCPage/testpage",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:55:43.5073215+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Zoey\\testpage.json"
+    ]
   }
 ]
