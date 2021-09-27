@@ -239,7 +239,16 @@
   },
   {
     "ModuleName": "PCPage/test",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T09:19:26.4913444+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Cindy\\test.json"
+    ]
   },
   {
     "ModuleName": "PCPage/testpage1_3",
