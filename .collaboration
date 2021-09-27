@@ -272,5 +272,15 @@
   {
     "ModuleName": "MobilePage/aba",
     "ModuleType": 2
+  },
+  {
+    "ModuleName": "Tables/nancy",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T09:42:55.0740743+08:00",
+    "ModuleType": 22
   }
 ]
