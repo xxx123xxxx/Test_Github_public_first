@@ -18,24 +18,178 @@
     "Count": 60
   },
   "AttachInfos": {
-    "1,1": {
+    "1,25": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "table1",
+        "RowIndex": 1,
+        "ColumnIndex": 25,
+        "ColumnCount": 25,
+        "RowCount": 9,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "2,25": {
+      "BindingInfo": {
+        "TableName": "table1",
+        "ColumnName": "Column1"
+      }
+    },
+    "2,31": {
+      "BindingInfo": {
+        "TableName": "table1",
+        "ColumnName": "Column2"
+      }
+    },
+    "2,37": {
+      "BindingInfo": {
+        "TableName": "table1",
+        "ColumnName": "Column3"
+      }
+    },
+    "2,43": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, ServerDesignerCommon"
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ShowConfirm": true,
+            "ConfirmText": "您确定要删除吗？",
+            "UpdateValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
   "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
     "Types": {
       "Strs": [
+        "DarkGray",
         "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
       ]
     },
+    "CellStyles": {
+      "1,25": 0,
+      "1,26": 1,
+      "1,27": 1,
+      "1,28": 1,
+      "1,29": 1,
+      "1,30": 1,
+      "1,31": 1,
+      "1,32": 1,
+      "1,33": 1,
+      "1,34": 1,
+      "1,35": 1,
+      "1,36": 1,
+      "1,37": 1,
+      "1,38": 1,
+      "1,39": 1,
+      "1,40": 1,
+      "1,41": 1,
+      "1,42": 1,
+      "1,43": 1,
+      "1,44": 1,
+      "1,45": 1,
+      "1,46": 1,
+      "1,47": 1,
+      "1,48": 1,
+      "1,49": 2,
+      "2,25": 3,
+      "2,49": 4,
+      "3,25": 3,
+      "3,49": 4,
+      "4,25": 3,
+      "4,49": 4,
+      "5,25": 3,
+      "5,49": 4,
+      "6,25": 3,
+      "6,49": 4,
+      "7,25": 3,
+      "7,49": 4,
+      "8,25": 3,
+      "8,49": 4,
+      "9,25": 5,
+      "9,26": 6,
+      "9,27": 6,
+      "9,28": 6,
+      "9,29": 6,
+      "9,30": 6,
+      "9,31": 6,
+      "9,32": 6,
+      "9,33": 6,
+      "9,34": 6,
+      "9,35": 6,
+      "9,36": 6,
+      "9,37": 6,
+      "9,38": 6,
+      "9,39": 6,
+      "9,40": 6,
+      "9,41": 6,
+      "9,42": 6,
+      "9,43": 6,
+      "9,44": 6,
+      "9,45": 6,
+      "9,46": 6,
+      "9,47": 6,
+      "9,48": 6,
+      "9,49": 7
+    },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 1
     }
   },
   "Spans": [
-    "1,1,4,11"
+    "3,25,7,25",
+    "2,25,1,6",
+    "2,31,1,6",
+    "2,37,1,6",
+    "2,43,1,4",
+    "1,25,1,6",
+    "1,31,1,6",
+    "1,37,1,6",
+    "1,43,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -49,4 +203,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//biHsHumnJLuYjOKP+wry0DmrVZyb1tVGyzFItQ4SKGgbPWtPHvkdjGcDnMw+tnvP2QzIV4f6gHsx1UFuyK92K00+zoR7HQjhvMqxWgSH/vY1v3CjM2BFCrIh5MMHeQnnDA/aJFdWzp6EDKydRjpPWkvwxUP5k4LHq1gGrMqLFMfaNp1KdJJDcwJshNR8uSJksEm6yVxwDQBCMEJAPujqRuVmND1FmMCArTfvQ+2Afb7mlIpC56oeR1gUjBiCI46eA6ndRqdOTJk5KYZ5qeDLUNay75mkfMPHKYv4j8ISV793w6Bx4hzZJowdpKMbEYneX3im7a35Zk1vfcB5jiAnkSt2Cpo0vQzaUNhYfChfOj3u2rWxBSH+fnfLN1c9vqHZmD2SQGmfbMXITk0DDHtw0Xr8Jr5GNFK+32kfU9AtvoF9chp8aoY4RRjck+DWNf2p1S8oybZLws/5BxuucLHZgLSNJ3Q1anNgH09M98XNjquGoRh2jEkngfvEzhnftnhbk37AONmXkLoF3uCn5jDCQG1aO57W1MmaH8iJBdBh//yZVKC7zDX3Xn1UWFvyM8GDytd9w0TqqPeBq0oxIi6T2im8SD4Le2eiuXP342cC+nALvVOsmE4XWZ5PPABnyKlCm05LMCs/Dzekn3BZB2SgSuF0ccq0o1qcy0uHrrliv6L+nYihwQSFwYt4PRXxqkQ9IXUYkncm72b7hSQszgsrHPz7bXiyMrdBWaXi8ivRTZe1uNG/hI7RrGVRQLk/+RdRl2hcxqtcgzcXT5EcIRqtAbgofK8/aORdMI14SupECVxXOgssUVtIbYGqM0iXj6TChtiN+aIH2DXr3G1cZkhsdgMC8hMkdWorkylBWWqz0ZLISNu9fr0feyppn0MudWDVBVlzrWh/jhotRbym3eXD8Q==|920
+}//aNQjM2WyHM8V/pc7VdgRPJY5OYygvK67V0dN96dMLZUbJkBh8d2IjZgwti3D9uy6iWmFIynrTYl2oVTuaRTVqUxmnRQwhwxarqQJfb3E8ps0cLZUcwMSjcPnqOmYSa6et5RJlvEFp8P3GrLXcCAP3dvlaE3uXebH1jW/PS49DKuF6P6yvbKa1ImAl92NdlDurtKz+J+2GvePMH6DWpLii7ZP/EZvDZXPIvUjlggpngD4FpfAhgWBwPxtppD+gSjQBvYfO8vW3EGou/8ThDe6zQ4Md5gujBhlikfiPUO7ajb0+5904GwwbF3ELbylIKYCfsYONNLmALn6en4MDr1pv1IRAaLtfHoQqyZrFI67iQyqX8CUh/JeAOBK31HCeJ+Al5mTRWDg1ADvkOnNn6uy/44tFibrqYSQgMCnTCeA0PtgA4R8FhNcnQPWqoWZ+RQazQXKtVz9UsXdKpY9Z1hMlwK2GOlenWB3yV8OXiOpoXarQeH/i/Fyeep6VRRk7AIs9U8CgjWCxkpLcVN6fBqEbBG0z90+p6Ei0ks2oCYd40xm3VUwuOTX5ok3ThaYKWmwu0/rRpZFTa3Kq/F8zd0uCs4q4TxpzMXrmUoaK2XSewC2cqvcKyaBGEO9szO/FkUE3UfqZmUetf8JQABSNSmdylz0q/D3uXrQjnAEdz4PUxZllECak1vwUodSOCSNDBqNWkzQhXbo4ruFq4ShCnUsC/NSyKgmA8B6KZobqF+pRaUKKa3X8NZgO9KrUkeVw8KSYiCfxE9T28KhS9NoH5niblyvggnToy3UF+l2tIIwWin6Zrwi2X2Yv95mextIhdLDsMPTyeTpQLiaqoM0lZE3aWqSgYzLP5DtnprQuuuxoOmdfMFpKJWWFN9HQubXhQWSV5fOx0bUw3m33c9DXKxHhA==|920
