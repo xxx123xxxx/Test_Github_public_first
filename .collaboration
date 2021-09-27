@@ -211,11 +211,29 @@
   },
   {
     "ModuleName": "Table/testmysql02",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T11:27:31.5137226+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\nancy\\testmysql02.json"
+    ]
   },
   {
     "ModuleName": "PCPage/testmysql02_详情页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T11:27:31.5137226+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\nancy\\testmysql02_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/testmysql02_列表页面",
