@@ -215,7 +215,16 @@
   },
   {
     "ModuleName": "PCPage/页面",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:22:05.9513337+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\zoey\\页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/1111",
@@ -232,7 +241,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-09-27T10:02:48.84211+08:00",
+    "LockDateTime": "2021-09-27T10:22:05.9513337+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\zoey\\列表页面.json"
@@ -261,12 +270,12 @@
   },
   {
     "ModuleName": "PCPage/_",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-09-27T09:36:00.0510258+08:00",
+    "LockDateTime": "2021-09-27T10:22:05.9513337+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\zoey\\_.json"
@@ -279,7 +288,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-09-27T10:21:55.4552624+08:00",
+    "LockDateTime": "2021-09-27T10:22:05.9513337+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\zoey\\zoe\\testpage1_2.json"
@@ -309,7 +318,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-09-27T10:21:55.4542491+08:00",
+    "LockDateTime": "2021-09-27T10:22:05.9513337+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\zoey\\zoe\\mpage.json"
@@ -325,7 +334,16 @@
   },
   {
     "ModuleName": "PCPage/页面3",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:22:05.9523182+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\zoey\\页面3.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/aba",
