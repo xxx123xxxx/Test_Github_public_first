@@ -133,27 +133,11 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T09:45:11.6166777+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T10:22:36.0001464+08:00",
-    "ModuleType": 26,
-    "ToRemoveFiles": []
+    "ModuleType": 26
   },
   {
     "ModuleName": "Tables/Cindy",
@@ -202,42 +186,18 @@
   },
   {
     "ModuleName": "Tables/nancy",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T09:42:55.0740743+08:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Table/testmysql",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T09:45:11.6196709+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Pages/nancy",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T09:46:03.3647157+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "PCPage/mysql_page",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T09:46:27.3142576+08:00",
     "ModuleType": 1
   },
   {
@@ -251,32 +211,14 @@
   },
   {
     "ModuleName": "Table/testmysql02",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T10:19:57.0970629+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "PCPage/testmysql02_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T10:20:17.2595139+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/testmysql02_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T10:20:17.2595139+08:00",
     "ModuleType": 1
   },
   {

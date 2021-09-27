@@ -1,0 +1,294 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "2,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "testmysql",
+        "RowIndex": 2,
+        "ColumnIndex": 2,
+        "ColumnCount": 40,
+        "RowCount": 10,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "3,2": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "ID"
+      }
+    },
+    "3,4": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "文本"
+      }
+    },
+    "3,8": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "整数"
+      }
+    },
+    "3,12": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "小数"
+      }
+    },
+    "3,16": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "日期"
+      }
+    },
+    "3,21": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "时间"
+      }
+    },
+    "3,25": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "是_否"
+      }
+    },
+    "3,29": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "用户"
+      }
+    },
+    "3,34": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "图片"
+      }
+    },
+    "3,38": {
+      "BindingInfo": {
+        "TableName": "testmysql",
+        "ColumnName": "附件"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 12.0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "FontSize": 12.0,
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontSize": 12.0,
+        "BorderLeft": 0
+      },
+      {
+        "FontSize": 12.0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "2,3": 1,
+      "2,4": 2,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 2,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 2,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 2,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 1,
+      "2,20": 1,
+      "2,21": 2,
+      "2,22": 1,
+      "2,23": 1,
+      "2,24": 1,
+      "2,25": 2,
+      "2,26": 1,
+      "2,27": 1,
+      "2,28": 1,
+      "2,29": 2,
+      "2,30": 1,
+      "2,31": 1,
+      "2,32": 1,
+      "2,33": 1,
+      "2,34": 2,
+      "2,35": 1,
+      "2,36": 1,
+      "2,37": 1,
+      "2,38": 2,
+      "2,39": 1,
+      "2,40": 1,
+      "2,41": 3,
+      "3,2": 4,
+      "3,4": 5,
+      "3,8": 5,
+      "3,12": 5,
+      "3,16": 5,
+      "3,21": 5,
+      "3,25": 5,
+      "3,29": 5,
+      "3,34": 5,
+      "3,38": 5,
+      "3,41": 6,
+      "4,2": 7,
+      "4,27": 6,
+      "4,41": 6,
+      "5,2": 7,
+      "5,27": 6,
+      "5,41": 6,
+      "6,2": 7,
+      "6,27": 6,
+      "6,41": 6,
+      "7,2": 7,
+      "7,27": 6,
+      "7,41": 6,
+      "8,2": 7,
+      "8,27": 6,
+      "8,41": 6,
+      "9,2": 7,
+      "9,27": 6,
+      "9,41": 6,
+      "10,2": 7,
+      "10,27": 6,
+      "10,41": 6,
+      "11,2": 8,
+      "11,3": 9,
+      "11,4": 9,
+      "11,5": 9,
+      "11,6": 9,
+      "11,7": 9,
+      "11,8": 9,
+      "11,9": 9,
+      "11,10": 9,
+      "11,11": 9,
+      "11,12": 9,
+      "11,13": 9,
+      "11,14": 9,
+      "11,15": 9,
+      "11,16": 9,
+      "11,17": 9,
+      "11,18": 9,
+      "11,19": 9,
+      "11,20": 9,
+      "11,21": 9,
+      "11,22": 9,
+      "11,23": 9,
+      "11,24": 9,
+      "11,25": 9,
+      "11,26": 9,
+      "11,27": 10,
+      "11,28": 9,
+      "11,29": 9,
+      "11,30": 9,
+      "11,31": 9,
+      "11,32": 9,
+      "11,33": 9,
+      "11,34": 9,
+      "11,35": 9,
+      "11,36": 9,
+      "11,37": 9,
+      "11,38": 9,
+      "11,39": 9,
+      "11,40": 9,
+      "11,41": 10
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "3,2,1,2",
+    "3,4,1,4",
+    "3,8,1,4",
+    "3,12,1,4",
+    "3,16,1,5",
+    "3,21,1,4",
+    "4,2,8,40",
+    "3,25,1,4",
+    "3,29,1,5",
+    "3,34,1,4",
+    "3,38,1,4",
+    "2,2,1,2",
+    "2,4,1,4",
+    "2,8,1,4",
+    "2,12,1,4",
+    "2,16,1,5",
+    "2,21,1,4",
+    "2,25,1,4",
+    "2,29,1,5",
+    "2,34,1,4",
+    "2,38,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//0Ol375w/ONOr0ZsGQZKR9/+Etx2SctgcX4tqmfZrJBgjDyyZMUSeugFymPHWpDxGPDwmk5gLcyG0JaRXJ7/owsrKNixSktk9ISkPZYxcT/dW2gkFSEr+k1wMNj2E9/qw9eiu4p2jIuerakfU0CcUnphRDumHuHaz7iXEusQJ+tFQyTg68TBi8SoRUCos4aL2Cc4ExFjLU1tjHVJVv2hwXrZvicXYTC0zXRZ28HEyTSAugN7BWaYrTBMELu7CxxeG4QKfipFWvM1wufp8kaYQk7vQf7uF5QRwGrqY1hePK17m6Vkfc+2G2xm5X22Y9yf3Q6JR19bXiFvgbdYlkYj7BesM2ASayEXYIe5DRTDhBUC2OBJDjZQ286pnWScB3XF2UtpUPowdDrSVQcT5PCYZUt3AnMaqsWA/zi5ajYGd7zzmG/fQh8E2TG/xkCbeR9sRN+2zKk/RvCQHCTWGlWUCq+vrlWilsfcE56/zthUobHoREXLpiRPRxFlQvk1m9Xn1Rx9HRXMk2jUdZHeeJjgB2aEgySW1fK0urt0zPnOW7WvXOTxAqEAPubfHqLo/ge1EeY2CMf07xQoXy6u90uWU/RvMYsISZRJSYWQ4MglD4NsgPLqAJYdaFPTLzMsxV8a7mvWEMRehP70hP/t6VGilm9VTzTBoP+gXVgytd2NK5EIbUgJtI7zCB3XOmDkxX0SnKuy8F1jhmkOoU+pm8tnfflfOTCLmHeUKRJYCj/nhuQZS7Z6dDr5tkYKNjACoRvIPAdhqAfeZ4tTLugGJyOj0IucyIF+EfqPoiWcTZGr0EV6XuUT1TTlVPlizae1Fi7uev7CGMIF2Bda9WJKdIBpmC4Ufky9kr1aRlAWOPU20oq2bN/MRyInvTWUUbwO8RJCPBxuXok/GIR3if5g23dtOQg==|920

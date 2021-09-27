@@ -3,6 +3,13 @@
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Host=xa-dd3-fgcp13d8.grapecity.net;Username=postgres;Password=xA20200326;Database=cindytest</ConnectionString>
     <DataBaseType>PostgreSQL</DataBaseType>
+    <EConnectionString>SbU7BAKjUWZS/IayXSTGaj1584b7WDDMfstFgL8RbTBjknMS0ez59IJgtjFJ9p7IhaTB4QHW4sIS85Iv5jQb+LWiEYnt2Ef00TmTnHsCtMpZqXTDsKJ6G+cdbN7/oo6R</EConnectionString>
     <ID>95da7942-8c05-41d1-99cf-c3dec7ece0a4</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Server=xa-dd3-fMS56O18;User Id=MySqlTest;Password=xA123456;Database=test</ConnectionString>
+    <DataBaseType>MySql</DataBaseType>
+    <EConnectionString>g2bu9tvfkk7rTk5MoUcc0zWn+x/EYIWayAoIt3TjU52nBw2HPUELgSBf9le8f+SyQ4OAQxCkJUTVQ4yxm6DvGzruEPB5Hlc5/sAMmrCqSFM=</EConnectionString>
+    <ID>5b81d7d2-fafa-40d3-9b61-661002de1008</ID>
   </Item>
 </DataConnectionSet>
