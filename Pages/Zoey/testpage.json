@@ -1,0 +1,52 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,4,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//biHsHumnJLuYjOKP+wry0DmrVZyb1tVGyzFItQ4SKGgbPWtPHvkdjGcDnMw+tnvP2QzIV4f6gHsx1UFuyK92K00+zoR7HQjhvMqxWgSH/vY1v3CjM2BFCrIh5MMHeQnnDA/aJFdWzp6EDKydRjpPWkvwxUP5k4LHq1gGrMqLFMfaNp1KdJJDcwJshNR8uSJksEm6yVxwDQBCMEJAPujqRuVmND1FmMCArTfvQ+2Afb7mlIpC56oeR1gUjBiCI46eA6ndRqdOTJk5KYZ5qeDLUNay75mkfMPHKYv4j8ISV793w6Bx4hzZJowdpKMbEYneX3im7a35Zk1vfcB5jiAnkSt2Cpo0vQzaUNhYfChfOj3u2rWxBSH+fnfLN1c9vqHZmD2SQGmfbMXITk0DDHtw0Xr8Jr5GNFK+32kfU9AtvoF9chp8aoY4RRjck+DWNf2p1S8oybZLws/5BxuucLHZgLSNJ3Q1anNgH09M98XNjquGoRh2jEkngfvEzhnftnhbk37AONmXkLoF3uCn5jDCQG1aO57W1MmaH8iJBdBh//yZVKC7zDX3Xn1UWFvyM8GDytd9w0TqqPeBq0oxIi6T2im8SD4Le2eiuXP342cC+nALvVOsmE4XWZ5PPABnyKlCm05LMCs/Dzekn3BZB2SgSuF0ccq0o1qcy0uHrrliv6L+nYihwQSFwYt4PRXxqkQ9IXUYkncm72b7hSQszgsrHPz7bXiyMrdBWaXi8ivRTZe1uNG/hI7RrGVRQLk/+RdRl2hcxqtcgzcXT5EcIRqtAbgofK8/aORdMI14SupECVxXOgssUVtIbYGqM0iXj6TChtiN+aIH2DXr3G1cZkhsdgMC8hMkdWorkylBWWqz0ZLISNu9fr0feyppn0MudWDVBVlzrWh/jhotRbym3eXD8Q==|920
