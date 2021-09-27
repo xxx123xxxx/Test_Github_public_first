@@ -353,16 +353,6 @@
     "ExclusiveType": 0
   },
   {
-    "ModuleName": "Table/testmysql01",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T09:59:28.7308622+08:00",
-    "ModuleType": 7
-  },
-  {
     "ModuleName": "PCPage/mysql_page01",
     "State": 3,
     "LockedBy": {
