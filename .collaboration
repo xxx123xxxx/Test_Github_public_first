@@ -211,12 +211,12 @@
   },
   {
     "ModuleName": "Table/testmysql02",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\NancyYang",
       "Email": "Nancy.yang@grapecity.com"
     },
-    "LockDateTime": "2021-09-27T11:27:41.0828034+08:00",
+    "LockDateTime": "2021-09-27T11:28:21.2373143+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\nancy\\testmysql02.json"
@@ -229,7 +229,7 @@
       "UserName": "GRAPECITY\\NancyYang",
       "Email": "Nancy.yang@grapecity.com"
     },
-    "LockDateTime": "2021-09-27T11:27:41.0828034+08:00",
+    "LockDateTime": "2021-09-27T11:28:21.2373143+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\nancy\\testmysql02_详情页面.json"
@@ -242,7 +242,7 @@
       "UserName": "GRAPECITY\\NancyYang",
       "Email": "Nancy.yang@grapecity.com"
     },
-    "LockDateTime": "2021-09-27T11:27:41.0828034+08:00",
+    "LockDateTime": "2021-09-27T11:28:21.2373143+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\nancy\\testmysql02_列表页面.json"
@@ -274,5 +274,15 @@
     },
     "LockDateTime": "2021-09-27T11:15:26.9722126+08:00",
     "ModuleType": 20
+  },
+  {
+    "ModuleName": "Table/testmysql02_1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T11:28:21.2373143+08:00",
+    "ModuleType": 7
   }
 ]
