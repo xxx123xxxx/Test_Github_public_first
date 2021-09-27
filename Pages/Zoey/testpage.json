@@ -17,180 +17,53 @@
   "Cols": {
     "Count": 60
   },
-  "AttachInfos": {
-    "1,25": {
-      "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
-        "TableName": "table1",
-        "RowIndex": 1,
-        "ColumnIndex": 25,
-        "ColumnCount": 25,
-        "RowCount": 9,
-        "ColumnOperation": 2,
-        "ShowGridLine": true,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "Name": "表格1",
-        "TopCondition": null,
-        "ListViewStyleName": "_RS_Medium2"
-      }
-    },
-    "2,25": {
-      "BindingInfo": {
-        "TableName": "table1",
-        "ColumnName": "Column1"
-      }
-    },
-    "2,31": {
-      "BindingInfo": {
-        "TableName": "table1",
-        "ColumnName": "Column2"
-      }
-    },
-    "2,37": {
-      "BindingInfo": {
-        "TableName": "table1",
-        "ColumnName": "Column3"
-      }
-    },
-    "2,43": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
-            "ShowConfirm": true,
-            "ConfirmText": "您确定要删除吗？",
-            "UpdateValues": []
-          }
-        ],
-        "TemplateKey": "_RS_Normal_Style2"
-      }
-    }
-  },
   "StyleDatas": {
     "Styles": [
       {
-        "BorderTop": 0,
-        "BorderLeft": 0
-      },
-      {
-        "BorderTop": 0
-      },
-      {
-        "BorderTop": 0,
-        "BorderRight": 0
-      },
-      {
-        "BorderLeft": 0
-      },
-      {
-        "BorderRight": 0
-      },
-      {
-        "BorderBottom": 0,
-        "BorderLeft": 0
-      },
-      {
-        "BorderBottom": 0
-      },
-      {
-        "BorderBottom": 0,
-        "BorderRight": 0
+        "FontFamily": 0
       }
     ],
     "Types": {
       "Strs": [
-        "DarkGray",
         "Body"
-      ],
-      "Borders": [
-        {
-          "Color": 0
-        }
       ]
     },
     "CellStyles": {
-      "1,25": 0,
-      "1,26": 1,
-      "1,27": 1,
-      "1,28": 1,
-      "1,29": 1,
-      "1,30": 1,
-      "1,31": 1,
-      "1,32": 1,
-      "1,33": 1,
-      "1,34": 1,
-      "1,35": 1,
-      "1,36": 1,
-      "1,37": 1,
-      "1,38": 1,
-      "1,39": 1,
-      "1,40": 1,
-      "1,41": 1,
-      "1,42": 1,
-      "1,43": 1,
-      "1,44": 1,
-      "1,45": 1,
-      "1,46": 1,
-      "1,47": 1,
-      "1,48": 1,
-      "1,49": 2,
-      "2,25": 3,
-      "2,49": 4,
-      "3,25": 3,
-      "3,49": 4,
-      "4,25": 3,
-      "4,49": 4,
-      "5,25": 3,
-      "5,49": 4,
-      "6,25": 3,
-      "6,49": 4,
-      "7,25": 3,
-      "7,49": 4,
-      "8,25": 3,
-      "8,49": 4,
-      "9,25": 5,
-      "9,26": 6,
-      "9,27": 6,
-      "9,28": 6,
-      "9,29": 6,
-      "9,30": 6,
-      "9,31": 6,
-      "9,32": 6,
-      "9,33": 6,
-      "9,34": 6,
-      "9,35": 6,
-      "9,36": 6,
-      "9,37": 6,
-      "9,38": 6,
-      "9,39": 6,
-      "9,40": 6,
-      "9,41": 6,
-      "9,42": 6,
-      "9,43": 6,
-      "9,44": 6,
-      "9,45": 6,
-      "9,46": 6,
-      "9,47": 6,
-      "9,48": 6,
-      "9,49": 7
+      "10,0": 0,
+      "11,0": 0,
+      "12,0": 0,
+      "13,0": 0,
+      "14,0": 0,
+      "15,0": 0,
+      "16,0": 0,
+      "17,0": 0,
+      "18,0": 0,
+      "19,0": 0,
+      "20,0": 0,
+      "21,0": 0,
+      "22,0": 0,
+      "23,0": 0,
+      "24,0": 0,
+      "25,0": 0,
+      "26,0": 0,
+      "27,0": 0,
+      "28,0": 0,
+      "29,0": 0,
+      "30,0": 0,
+      "31,0": 0,
+      "32,0": 0,
+      "33,0": 0,
+      "34,0": 0,
+      "35,0": 0,
+      "36,0": 0,
+      "37,0": 0,
+      "38,0": 0,
+      "39,0": 0
     },
     "SheetStyle": {
-      "FontFamily": 1
+      "FontFamily": 0
     }
   },
-  "Spans": [
-    "3,25,7,25",
-    "2,25,1,6",
-    "2,31,1,6",
-    "2,37,1,6",
-    "2,43,1,4",
-    "1,25,1,6",
-    "1,31,1,6",
-    "1,37,1,6",
-    "1,43,1,4"
-  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
@@ -203,4 +76,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//aNQjM2WyHM8V/pc7VdgRPJY5OYygvK67V0dN96dMLZUbJkBh8d2IjZgwti3D9uy6iWmFIynrTYl2oVTuaRTVqUxmnRQwhwxarqQJfb3E8ps0cLZUcwMSjcPnqOmYSa6et5RJlvEFp8P3GrLXcCAP3dvlaE3uXebH1jW/PS49DKuF6P6yvbKa1ImAl92NdlDurtKz+J+2GvePMH6DWpLii7ZP/EZvDZXPIvUjlggpngD4FpfAhgWBwPxtppD+gSjQBvYfO8vW3EGou/8ThDe6zQ4Md5gujBhlikfiPUO7ajb0+5904GwwbF3ELbylIKYCfsYONNLmALn6en4MDr1pv1IRAaLtfHoQqyZrFI67iQyqX8CUh/JeAOBK31HCeJ+Al5mTRWDg1ADvkOnNn6uy/44tFibrqYSQgMCnTCeA0PtgA4R8FhNcnQPWqoWZ+RQazQXKtVz9UsXdKpY9Z1hMlwK2GOlenWB3yV8OXiOpoXarQeH/i/Fyeep6VRRk7AIs9U8CgjWCxkpLcVN6fBqEbBG0z90+p6Ei0ks2oCYd40xm3VUwuOTX5ok3ThaYKWmwu0/rRpZFTa3Kq/F8zd0uCs4q4TxpzMXrmUoaK2XSewC2cqvcKyaBGEO9szO/FkUE3UfqZmUetf8JQABSNSmdylz0q/D3uXrQjnAEdz4PUxZllECak1vwUodSOCSNDBqNWkzQhXbo4ruFq4ShCnUsC/NSyKgmA8B6KZobqF+pRaUKKa3X8NZgO9KrUkeVw8KSYiCfxE9T28KhS9NoH5niblyvggnToy3UF+l2tIIwWin6Zrwi2X2Yv95mextIhdLDsMPTyeTpQLiaqoM0lZE3aWqSgYzLP5DtnprQuuuxoOmdfMFpKJWWFN9HQubXhQWSV5fOx0bUw3m33c9DXKxHhA==|920
+}//Hgsa2la2k1d9ZhqJperWQDgRpb6eQrhbY3MbNTL1RelfpfYe2TJhb8L7eEDV3va0etwyzc6pxgN1xs3hgXFx+cVkvPhKb0+vpxna9iPhGfAMb+YxTaDtH06dl5EY8Q2qmB6httd2ofKxi/AD70ZmCOc2EXNpxj5ArTURJtrvm+cWotwmVoBIgCRzt5q4teb9V0Q/wXaQofO0T+Dvee6Cyhar7n1cDclMA6+4A2kh3eqrpe9sUhXaLiXX0BXIsyhudvG+Dmdek0p3gDH8KYMcVWEm8/GvHYXKU4A/+GMRTvD/EAb0s+Unxwv0KT53P3UEaPDSUmBeZRGCfr+U/aTw9sgHnTAvSWiN018Wm9ZHBd33kdToqluZkfRP6wfyjYxFLU+0F63NS0D1HdVu4ZqWwAtgpVxJani39z7VkQw+EvlIqyks6y13lyuioDIdWoOywfQpHJlVGU0ySR+vEstN369okZWd3VY41acxkhZ0HbNvXWAhNZp9XwBQo+M+yPX48PbdZp0HnDdo8XuNkuG90jIZDEWz1bBPEyID9hSF3qKYR779YM2AJoe+8iJepGoDRfmfvhMcCbsrp1N0bCkfYoJXDUaaaHsQc/p/fDQHpFC1APhO7KAy+IDcNqqTs6uov00otQlKCCfsllU0ahsSYaryl8z4A2WS0a00vqU7d8xKXTAzZWTqExzoaamXDitZ/rh3Pq8ELgbGCOrAnFeOGKVXFzhl7qJ9hJ82WUXH+qy8EsNSdCBns9x8K8BQ3O9llidfDfUnYpUrFbXR/whv9rtq92GGavNN44cEwI8uxmUFpC0DUto/RSlLDStJhR2gsBalW53H8k1wXkm4Eao2EckL/ebm2/sAwIKvsc2NSeriFV8T5oPtjtmothITwfEaxduU1rBEn5uRyiuSdVwn5g==|920
