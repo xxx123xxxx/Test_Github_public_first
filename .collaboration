@@ -373,5 +373,15 @@
     "LockDateTime": "2021-09-27T09:52:07.410943+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/testmysql02",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:19:57.0970629+08:00",
+    "ModuleType": 7
   }
 ]
