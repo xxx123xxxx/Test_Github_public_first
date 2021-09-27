@@ -248,7 +248,16 @@
   },
   {
     "ModuleName": "PCPage/page",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:21:55.4542491+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\zoey\\page.json"
+    ]
   },
   {
     "ModuleName": "PCPage/_",
@@ -270,7 +279,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-09-27T10:12:37.6260735+08:00",
+    "LockDateTime": "2021-09-27T10:21:55.4552624+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\zoey\\zoe\\testpage1_2.json"
@@ -295,7 +304,16 @@
   },
   {
     "ModuleName": "PCPage/mpage",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:21:55.4542491+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\zoey\\zoe\\mpage.json"
+    ]
   },
   {
     "ModuleName": "PCPage/工作流命令",
@@ -311,7 +329,16 @@
   },
   {
     "ModuleName": "MobilePage/aba",
-    "ModuleType": 2
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:21:55.4552624+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\zoey\\aba.json"
+    ]
   },
   {
     "ModuleName": "Tables/nancy",
