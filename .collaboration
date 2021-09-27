@@ -209,23 +209,70 @@
   },
   {
     "ModuleName": "Reports/zoey",
-    "ModuleType": 19
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:27:54.6134631+08:00",
+    "ModuleType": 19,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "PageReport/report1",
-    "ModuleType": 17
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:27:54.6144629+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\zoey\\report1.json",
+      "Reports\\zoey\\report1.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/报表1",
-    "ModuleType": 18
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:27:54.6144629+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\zoey\\报表1.json",
+      "Reports\\zoey\\报表1.rdlx"
+    ]
   },
   {
     "ModuleName": "PageReport/111",
-    "ModuleType": 17
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:27:54.6144629+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\zoey\\111.json",
+      "Reports\\zoey\\111.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/_",
-    "ModuleType": 18
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T10:27:54.6144629+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\zoey\\_.json",
+      "Reports\\zoey\\_.rdlx"
+    ]
   },
   {
     "ModuleName": "PCPage/页面",
