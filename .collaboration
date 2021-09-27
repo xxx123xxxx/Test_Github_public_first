@@ -351,15 +351,5 @@
     "LockDateTime": "2021-09-27T09:52:07.410943+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "PCPage/mysql_page01",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T10:00:00.7584987+08:00",
-    "ModuleType": 1
   }
 ]
